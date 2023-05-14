@@ -1,5 +1,15 @@
 import telebot
 from telebot import types
+from notion_database.page import Page
+from notion_database.properties import Properties
+from notion_database.database import Database
+
+token = 'secret_1RiuGReKtVd1FSDEqtOPLgf2FSHvJGvXmAOBwKCh710'
+db_id = 'a6fc9f7f128d4b33a37916eda8f78269'
+
+D = Database(integrations_token=token)
+D.retrieve_database(db_id, get_properties=True)
+properties_list = D.properties_list
 
 bot = telebot.TeleBot('6211233672:AAGLlrz8Wt3BzUag1GYb930PFe7-vVnVtP0')
 user_data = {}
@@ -14,9 +24,16 @@ btn4 = types.KeyboardButton("Дневник полезных привычек")
 menu1.row(btn4)
 back = types.KeyboardButton("Вернуться в главное меню")
 menu1.row(back)
+
 name = ''
 memories = ''
-
+evaluation = ''
+sleep=False
+eat=False
+read=False
+drink=False
+care=False
+step=False
 
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -83,7 +100,7 @@ def func(message):
         markup.row(button1)
         button2 = types.InlineKeyboardButton(text="Влияние сна", callback_data="influence")
         markup.row(button2)
-        button3 = types.InlineKeyboardButton(text="Восстановление после бессонници", callback_data="bad_sleep")
+        button3 = types.InlineKeyboardButton(text="Восстановление после бессонницы", callback_data="bad_sleep")
         markup.row(button3)
         button4 = types.InlineKeyboardButton(text="Что съесть, чтобы лучше спать?", callback_data="healthy_food")
         markup.row(button4)
@@ -96,16 +113,22 @@ def func(message):
 
     elif message.text == "Дневник полезных привычек":
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-        ask = types.KeyboardButton("Ответить на вопросы")
+        ask = types.KeyboardButton("Answer the questions")
         markup.add(ask)
         bot.send_message(message.from_user.id,
-                         "Часто мы не можем взять себя в руки и начать делать что-то полезное для себя каждый день," \
-                         "а если начинаем-то забрасываем. Бот будет каждый день задавать вопросы, напоминая тем самым сделать что-то полезное," \
-                         "и записывать ваши ответы в таблицу", reply_markup=markup)
+                         "<b>How many harmful habits do you have?\nAnd how many beneficial ones?</b>\n\n" \
+                         "Each of us can become better, healthier, more positive, and more successful!" \
+                         "We have our whole life for that, 365 days a year, 7 days a week, 24 hours a day, and 60 minutes per hour.\n" \
+                         "Add new beneficial habits to your life!\n\n" \
+                         "The bot will ask you some questions every day, thereby reminding you to do something useful, "\
+                         "and record your answers in a table!", reply_markup=markup, parse_mode='HTML')
 
-    elif message.text == "Ответить на вопросы":
-        get_name(message)
+    elif message.text == "Answer the questions":
+        a = types.ReplyKeyboardRemove()
+        bot.send_message(message.from_user.id, "What is your name?", reply_markup=a)
+        bot.register_next_step_handler(message, get_name)
 
+  
 
     elif message.text != "👋 Поздороваться":
         bot.send_message(message.chat.id, text="На такую комманду я не запрограммировал.../start")
@@ -113,15 +136,124 @@ def func(message):
 def get_name(message):
     global name
     name = message.text
-    bot.send_message(message.from_user.id, 'Ваше имя?')
+    bot.send_message(message.from_user.id, 'What do you remember most today?')
     bot.register_next_step_handler(message, get_memories)
 
 def get_memories(message):
     global memories
     memories = message.text
-    bot.send_message(message.from_user.id, 'What do you remember most today?')
-    #bot.register_next_step_handler(message, #***) # тут функция и след. вопрос
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    excellent = types.KeyboardButton("\U0001F603 excellent")
+    normal = types.KeyboardButton("\U0001F642 normal")
+    bad = types.KeyboardButton("\U0001F61E bad")
+    markup.add(excellent, normal, bad)
+    bot.send_message(message.from_user.id, 'Give an assessment of today', reply_markup=markup)
+    bot.register_next_step_handler(message, get_evaluation)
 
+def get_evaluation(message):
+    global evaluation
+    evaluation = message.text
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    yes = types.KeyboardButton("\U0001F603 Yes")
+    no = types.KeyboardButton("\U0001F61E No")
+    markup.add(yes, no)
+    bot.send_message(message.from_user.id, 'Have you drunk 1.5 liters of water?', reply_markup=markup)
+    bot.register_next_step_handler(message, get_drinking)
+
+def get_drinking(message):
+    global drink
+    if message.text == 'Yes':
+        drink = True
+    else:
+        drink = True
+
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    yes = types.KeyboardButton("\U0001F603 Yes")
+    no = types.KeyboardButton("\U0001F61E No")
+    markup.add(yes, no)
+    bot.send_message(message.from_user.id, 'Have you slept more than 8 hours?', reply_markup=markup)
+    bot.register_next_step_handler(message, get_sleeping)
+
+def get_sleeping(message):
+    global sleep
+    if message.text == 'Yes':
+        sleep = True
+    else:
+        sleep = True
+
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    yes = types.KeyboardButton("\U0001F603 Yes")
+    no = types.KeyboardButton("\U0001F61E No")
+    markup.add(yes, no)
+    bot.send_message(message.from_user.id, 'Have you walked at least 10,000 steps?', reply_markup=markup)
+    bot.register_next_step_handler(message, get_walking)
+
+def get_walking(message):
+    global step
+    if message.text == 'Yes':
+        step = True
+    else:
+        step = True
+
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    yes = types.KeyboardButton("\U0001F603 Yes")
+    no = types.KeyboardButton("\U0001F61E No")
+    markup.add(yes, no)
+    bot.send_message(message.from_user.id, 'Have you eaten healthy food?', reply_markup=markup)
+    bot.register_next_step_handler(message, get_eating)
+
+def get_eating(message):
+    global eat
+    if message.text == 'Yes':
+        eat = True
+    else:
+        eat = True
+
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    yes = types.KeyboardButton("\U0001F603 Yes")
+    no = types.KeyboardButton("\U0001F61E No")
+    markup.add(yes, no)
+    bot.send_message(message.from_user.id, 'Have you read at least 20 pages of the book?', reply_markup=markup)
+    bot.register_next_step_handler(message, get_reading)
+
+def get_reading(message):
+    global read
+    if message.text == 'Yes':
+        read = True
+    else:
+        read = True
+
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    yes = types.KeyboardButton("\U0001F603 Yes")
+    no = types.KeyboardButton("\U0001F61E No")
+    markup.add(yes, no)
+    bot.send_message(message.from_user.id, 'Have you performed skin care procedures?', reply_markup=markup)
+    bot.register_next_step_handler(message, get_caring)
+    
+def get_caring(message):
+    global care
+    if message.text == 'Yes':
+        care = True
+    else:
+        care = True
+
+    fill_table(name, memories, sleep, eat, read, drink, care, step)
+
+   
+def fill_table(name, memories, sleep, eat, read, drink, care, step):
+    PROPERTY = Properties()
+    PROPERTY.set_title("Name", f"{name}")
+    PROPERTY.set_select("Evaluation of the day", evaluation)
+    PROPERTY.set_rich_text("What do you remember most today?", f"{memories}")
+    PROPERTY.set_checkbox("Sleep more than 8 hours", sleep)
+    PROPERTY.set_checkbox("Eat healthy food", eat)
+    PROPERTY.set_checkbox("Read at least 20 pages of the book", read)
+    PROPERTY.set_checkbox("Drink 1.5 liters of water", drink)
+    PROPERTY.set_checkbox("Facial skin care", care)
+    PROPERTY.set_checkbox("Go 10,000 steps", step)
+   
+    P = Page(integrations_token=token)
+    P.create_page(database_id=db_id, properties=PROPERTY)
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_worker(call):
