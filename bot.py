@@ -10,10 +10,13 @@ btn2 = types.KeyboardButton("Питание")
 menu1.row(btn2)
 btn3 = types.KeyboardButton("Сон")
 menu1.row(btn3)
-btn4 = types.KeyboardButton("Полезные привычки")
+btn4 = types.KeyboardButton("Дневник полезных привычек")
 menu1.row(btn4)
 back = types.KeyboardButton("Вернуться в главное меню")
 menu1.row(back)
+name = ''
+memories = ''
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -90,11 +93,34 @@ def func(message):
                          "Что ты хочешь знать про сон?".format(message.from_user),
                          reply_markup=markup)
 
-    elif message.text == "Полезные привычки":
-        bot.send_message(message.from_user.id, "(тут notion подключить)")
+
+    elif message.text == "Дневник полезных привычек":
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+        ask = types.KeyboardButton("Ответить на вопросы")
+        markup.add(ask)
+        bot.send_message(message.from_user.id,
+                         "Часто мы не можем взять себя в руки и начать делать что-то полезное для себя каждый день," \
+                         "а если начинаем-то забрасываем. Бот будет каждый день задавать вопросы, напоминая тем самым сделать что-то полезное," \
+                         "и записывать ваши ответы в таблицу", reply_markup=markup)
+
+    elif message.text == "Ответить на вопросы":
+        get_name(message)
+
 
     elif message.text != "👋 Поздороваться":
         bot.send_message(message.chat.id, text="На такую комманду я не запрограммировал.../start")
+
+def get_name(message):
+    global name
+    name = message.text
+    bot.send_message(message.from_user.id, 'Ваше имя?')
+    bot.register_next_step_handler(message, get_memories)
+
+def get_memories(message):
+    global memories
+    memories = message.text
+    bot.send_message(message.from_user.id, 'What do you remember most today?')
+    #bot.register_next_step_handler(message, #***) # тут функция и след. вопрос
 
 
 @bot.callback_query_handler(func=lambda call: True)
@@ -127,7 +153,6 @@ def callback_worker(call):
         bot.send_message(call.message.chat.id, 'Далее про здоровую пищу')
     elif call.data == "back":
         bot.send_message(call.message.chat.id, 'Выбери тему', reply_markup=menu1)
-
 
 
 # def get_name(message):  # получаем фамилию
