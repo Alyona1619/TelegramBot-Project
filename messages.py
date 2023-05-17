@@ -8,7 +8,7 @@ messages = {
                 '<b>Разогревание.</b> Кожа будет лучше реагировать на массаж с кремами или маслами, если перед процедурой разогреть кожу. Распаривать лицо не нужно, достаточно приложить теплое полотенце и подождать 5 минут.\n' \
                 '<b>Увлажнение.</b> Массаж производится только после нанесения крема. Если тянуть сухую кожу, на ней будут появляться морщинки и различные повреждения. Нанесите легкий крем или масло в небольшом количестве по массажным линиям.'
             ,
-            'image_url': 'url_подготовки_к_процедуре'
+            'image_url': 'img/prepare.jpg'
         },
         'Польза массажа': {
             'text':
@@ -33,9 +33,9 @@ messages = {
                 '&#9899;изящный нос,\n' \
                 '&#9899;здоровый цвет лица.'
             ,
-            'image_url': 'url_классического_массажа'
+            'image_url': 'img/benefits.jpg'
         },
-        #МАССАЖ
+        # МАССАЖ
         'Классический массаж': {
             'text':
                 'Как делать массаж лица? Самое главное — освоить технику. Для этого необходимо хорошо знать массажные линии и контролировать давление пальцев. Сама же техника выполнения классического массажа сводится к четырем основным движениям:\n' \
@@ -53,7 +53,7 @@ messages = {
                 'Основные движения при классическом массаже — поглаживающие. Вибрациям, растираниям и похлопываниям уделяется меньше времени. Обычно на всю процедуру уходит не более 30 минут.\n' \
                 'Чтобы ощутить эффект от классического массажа лица, порой достаточно всего одной процедуры. Кожа сразу становится более упругой, подтянутой. Меняется цвет лица, появляется сияние. Чтобы закрепить полученный результат, рекомендуется пройти курс из 8-10 процедур по одной в неделю.'
             ,
-            'image_url': 'url_классического_массажа'
+            'image_url': 'img/classic.jpg'
         },
         'Пластический массаж': {
             'text':
@@ -70,7 +70,7 @@ messages = {
                 '&#51;лоб — от центра к височной области.\n' \
                 'Закончите процедуру плавными скользящими поглаживаниями лица от центра к периферии.'
             ,
-            'image_url': 'url_пластического_массажа'
+            'image_url': 'img/plastic.jpg'
         },
         'Лимфодренажный массаж': {
             'text':
@@ -98,9 +98,9 @@ messages = {
                 '&#54;От середины лба в стороны, далее вниз: ухо — челюсть — ключицы — подмышки.\n\n' \
                 'На словах это может казаться сложным, но стоит лишь раз выполнить этот массаж по инструкции, и вы его запомните навсегда. Как часто можно делать такой массаж? Поскольку он простой и безопасный, его можно выполнять и каждый день, и два-три раза в неделю или использовать как SOS-средство, чтобы быстро «разгрузить» лицо. Главное — понять принцип, остальное — дело техники.'
             ,
-            'image_url': 'url_лимфодренажного_массажа'
+            'image_url': 'img/limfa.jpg'
         },
-        #МАССАЖЕРЫ
+        # МАССАЖЕРЫ
         'Механические массажеры для лица': {
             'text':
                 'В основе их работы лежит принцип механического воздействия на различные слои кожи. Воздействие может быть нескольких видов: надавливание, прокатывание, покалывание, вибрация или их различные сочетания.\n' \
@@ -182,7 +182,7 @@ messages = {
             ,
             'image_url': 'lymphatic_drainage_massage_image_url'
         },
-        #ПИТАНИЕ
+        # ПИТАНИЕ
         'Витамины и микроэлементы': {
             'text':
                 '<b>БЕЛОК.</b> Основной строительный материал: аминокислоты необходимы для синтеза коллагеновых волокон, которые отвечают за упругость кожи.\n' \
@@ -199,11 +199,10 @@ messages = {
                 '<b>ЦИНК.</b> Обладает противовоспалительными свойствами, регулирует работу сальных желез.\n' \
                 '<b>КАЛЬЦИЙ.</b> Участвует в синтезе структурных элементов кожи.'
 
-
             ,
             'image_url': 'lymphatic_drainage_massage_image_url'
         },
-        'Полезные продукты': {
+        'Полезные продукты.': {
             'text':
                 ' Вот список продуктов, необходимых для улучшения состояния кожи:\n' \
                 '&#49;Орехи — кладовая омега-3, меланина, витаминов Н и Е. Достаточно совсем небольшой порции в день.\n' \
@@ -246,14 +245,14 @@ messages = {
             ,
             'image_url': 'benefits_of_massage_image_url'
         },
-        #CОН
+        # CОН
         'Сколько нужно спать и почему вредно недосыпать?': {
             'text':
                 'Специалисты разнятся в вопросе длительности сна, но сошлись на среднем числе. 8-и часовой отдыхсчитается полноценным и помогает организму создавать иммунокомпетентные клетки, важные в борьбе с вирусами.\n' \
                 'Мелатонин – один из основных гормонов, отвечающий за качество сна и его глубину. Организм человека самостоятельно синтезирует этот гормон, но только в полной темноте. Недостаточность гормона приводит к ранней старости, избыточному весу, а также к заболеваниям сердечно-сосудистой системы и даже онкологии.\n' \
                 'Если вы недосыпаете, дневной сон не заменит ночной. Такой отдых продлится 3-4 часа, но не компенсирует затраченные организмом ресурсы.'
             ,
-            'image_url': 'swedish_massage_image_url'
+            'image_url': 'img/nedosip.jpg'
         },
         'Как сон влияет на гормоны и кожу?': {
             'text':
@@ -262,7 +261,7 @@ messages = {
                 'Во время сна кожа не только обновляется, но и восстанавливается от повреждения ультрафиолетом – главного внешнего фактора ее старения.\n' \
                 'Сбои в цикле сна могут напрямую влиять на старение кожи, а здоровье кожи может ухудшаться. При полноценном сне уровень основных гормонов в организме остаётся в пределах нормы, в то время как плохой сон вызывает сбой в выработке гормонов. Гормоны влияют не только на здоровье кожи, но и участвуют в регулировании обмена веществ в организме. Когда происходит недосып, в мягких тканях и органах накапливаются шлаки и токсины, обладающие отравляющим действием для организма, что провоцирует акне, комедоны и другие кожные воспаления.'
             ,
-            'image_url': 'deep_tissue_massage_image_url'
+            'image_url': 'img/sleep_skin.jpg'
         },
         'Как восстановить кожу после бессонницы?': {
             'text':
@@ -272,7 +271,7 @@ messages = {
                 '&#52;Четвертый этап – увлажнение. Ночной крем или ночная маска помогают коже восстанавливаться и избавляться от последствий дневных стрессов. Только при достаточном уровне влаги клетки кожи работают в полную силу.\n' \
                 '&#53;Этап пятый – сон. Мы уже писали, что для полноценной выработки мелатонина необходимо спать в максимальной темноте, чтобы на радужную оболочку глаз не попадал свет. Если такой возможности нет, попробуйте маски для сна. Даже мерцающие лампочки гаджетов мешают мелатонину вырабатываться, сбивая наши биологические часы.'
             ,
-            'image_url': 'lymphatic_drainage_massage_image_url'
+            'image_url': 'img/nosleep.jpg'
         },
         'Что съесть, чтобы крепко спать?': {
             'text':
@@ -283,7 +282,7 @@ messages = {
                 '&#53;<b>Апигенин.</b> Этот антиоксидант связан с рецепторами головного мозга и помогает ему настроиться на отдых. Ромашковый чай содержит высокую концентрацию апигенина.\n' \
                 '&#54;<b>Серотонин.</b> Исследования установили, что вещества, способствующие выработке серотонина, помогают головному мозгу лучше регулировать циклы сна. Например, если употреблять киви в пищу в вечернее время, качество сна заметно улучшится.'
             ,
-            'image_url': 'benefits_of_massage_image_url'
+            'image_url': 'img/food_sleep.jpg'
         },
         'Правила "Доброй ночи"': {
             'text':
@@ -294,7 +293,7 @@ messages = {
                 '&#52;Продукты с клетчаткой – помощь организму во время сна. Продукты, содержащие пищевые волокна, увеличивают фазы глубокого сна, благодаря этому мы лучше высыпаемся.\n' \
                 '&#53;Кофе, чёрный и зелёный чай перед сном – табу. Действие кофеина длится в среднем 6 часов, поэтому не стоит пить кофеиносодержащие напитки после 17:00. Лучше заменить на ромашковый чай или цикорий.'
             ,
-            'image_url': 'benefits_of_massage_image_url'
+            'image_url': 'img/dobroi_nochi.jpg'
         }
     },
     'English': {
@@ -311,7 +310,7 @@ messages = {
                     "the procedure. There is no need to steam your face; simply apply a warm towel and wait for 5 minutes.\n" \
                     "&#9989;<b>Moisturizing.</b> Massage is performed only after applying the cream. If you pull on dry skin, wrinkles and " \
                     "various damages may appear. Apply a lightweight cream or oil in a small amount along the massage lines.",
-            'image_url': 'image_url'
+            'image_url': 'img/prepare.jpg'
         },
         'The benefits of facial massage': {
             'text': "The exceptional aspect of self-facial massage is that it can restore the physiological processes that have been disrupted and led to facial aging.\n\n" \
@@ -342,7 +341,7 @@ messages = {
                     "&#128900;The corners of the lips are lifted\n" \
                     "&#128900;The nose appears more refined\n" \
                     "&#128900;The complexion appears healthy and vibrant",
-            'image_url': 'image_url'
+            'image_url': 'img/benefits.jpg'
         },
         'Mistakes': {
             'text': "1. You are doing the massage in the morning. It is better to perform the procedure in the evening, after applying night cream and going to bed. "
@@ -370,7 +369,7 @@ messages = {
                     "exacerbation of chronic diseases, cancer, active inflammatory processes in the body, and blood disorders.",
             'image_url': 'image_url'
         },
-        #Types of Home Facial Massage and Techniques
+        # Types of Home Facial Massage and Techniques
         'Classic massage': {
             'text': "<b><u>Classic massage</u></b>\n\n" \
                     "How to perform a facial massage? The most important thing is to master the technique. To do this, it is necessary to have a good " \
@@ -388,17 +387,17 @@ messages = {
                     "To feel the effects of a classical facial massage, sometimes just one session is enough. " \
                     "The skin immediately becomes firmer and more toned. The complexion changes, and a radiant glow appears. " \
                     "To maintain the achieved results, it is recommended to undergo a course of 8-10 sessions, once per week.",
-            'image_url': 'image_url'
+            'image_url': 'img/classic.jpg'
         },
         'Plastic massage': {
             'text': "text",
-            'image_url': 'image_url'
+            'image_url': 'img/plastic.jpg'
         },
         'Lymphatic drainage massage': {
             'text': 'Text',
-            'image_url': 'image_url'
+            'image_url': 'img/limfa.jpg'
         },
-        #Types of facial massagers
+        # Types of facial massagers
         'Mechanical': {
             'text': 'Text',
             'image_url': 'image_url'
@@ -415,7 +414,7 @@ messages = {
             'text': 'Text',
             'image_url': 'image_url'
         },
-        
+
         # -- NUTRITION --
         'Vitamins and Micronutrients': {
             'text': 'Text',
@@ -463,7 +462,7 @@ messages = {
                     "this hormone lead to premature aging, excess weight, as well as cardiovascular diseases and even oncology.\n\n" \
                     "If you experience sleep deprivation, daytime napping cannot replace nighttime sleep. Such rest may last for 3-4 hours but doesn't compensate for the resources " \
                     "expended by the body.",
-            'image_url': 'image_url'
+            'image_url': 'img/nedosip.jpg'
         },
         'How does sleep affect hormones and the skin?': {
             'text': "Aging of the skin is associated with both internal and external factors. Sun rays, pollution - all of these accelerate the aging processes.\n\n" \
@@ -474,7 +473,7 @@ messages = {
                     "body remain within normal limits, while poor sleep disrupts hormone production.\n\n" \
                     "Hormones not only affect skin health but also participate in regulating metabolism in the body. When sleep is inadequate, toxins and waste accumulate in " \
                     "soft tissues and organs, exerting a toxic effect on the body, which can lead to acne, blackheads, and other skin inflammations.",
-            'image_url': 'image_url'
+            'image_url': 'img/sleep_skin.jpg'
         },
         'How can you restore the skin after insomnia?': {
             'text': "&#49;The first stage of preparing for sleep is cleansing. Avoid washing your face with soap that has a high pH level. Choose high-quality gentle " \
@@ -489,7 +488,7 @@ messages = {
                     "&#53;The fifth stage is sleep. As mentioned before, for the proper production of melatonin, it is necessary to sleep in complete darkness to prevent light from " \
                     "reaching the eyes' retina. If this is not possible, try using sleep masks. Even flickering gadget lights can interfere with the production of melatonin, " \
                     "disrupting our biological clocks.",
-            'image_url': 'image_url'
+            'image_url': 'img/no_sleep.jpg'
         },
         'What to eat to sleep well?': {
             'text': "&#49;<b><u>Magnesium</u></b> is necessary for promoting normal sleep as it has a pronounced anti-inflammatory effect. Additionally, it helps reduce cortisol levels " \
@@ -506,7 +505,7 @@ messages = {
                     "concentration of apigenin.\n" \
                     "&#53;<b><u>Serotonin</u></b>. Research has shown that substances that promote serotonin production help thebrain regulate sleep cycles better. For example, consuming " \
                     "kiwi in the evening significantlyimproves sleep quality.",
-            'image_url': 'image_url'
+            'image_url': 'img/food_sleep.jpg'
         },
         'The rules of "Good night"': {
             'text': "1. Many elements need a helper - insulin. And insulin, in turn, is produced in response to &quot;slow&quot; carbohydrates. Choose foods that are rich in proteins " \
@@ -515,9 +514,9 @@ messages = {
                     "light dinner about 2 hours before going to bed. This way, you won't feel heavy or hungry.\n4. Foods high in fiber are beneficial for the body during sleep. " \
                     "Foods containing dietary fiber increase the phases of deep sleep, allowing us to get better rest.\n5. Coffee, black tea, and green tea are taboo before sleep. " \
                     "The effects of caffeine last an average of 6 hours, so it's best to avoid consuming caffeinated beverages after 5:00 PM. Instead, opt for chamomile tea or chicory.",
-            'image_url': 'image_url'
+            'image_url': 'img/dobroi_nochi.jpg'
         }
-   
+
     }
 }
 
