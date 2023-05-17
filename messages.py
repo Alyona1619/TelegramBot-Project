@@ -304,11 +304,11 @@ messages = {
                     "it is better to use grape seed oil or a lightweight gel-cream. The texture of the product should not be too thick, but if it absorbs quickly, " \
                     "you won't be able to perform a full massage. You will have to constantly apply the cream. Make sure the product does not clog pores.\n\n" \
                     "<u><b>The preparatory procedures include several stages:</b></u>\n\n" \
-                    "&#129524;<b>Thorough cleansing.</b> First, remove makeup with a special product: milk or micellar water. Then, make sure to wash your face with" \
+                    "&#9989;<b>Thorough cleansing.</b> First, remove makeup with a special product: milk or micellar water. Then, make sure to wash your face with" \
                     "a foam or gel cleanser, pat your face dry with a towel, but do not rub it.\n" \
-                    "&#129524;<b>Warming up.</b> The skin will respond better to the massage with creams or oils if you warm it up before " \
+                    "&#9989;<b>Warming up.</b> The skin will respond better to the massage with creams or oils if you warm it up before " \
                     "the procedure. There is no need to steam your face; simply apply a warm towel and wait for 5 minutes.\n" \
-                    "&#129524;<b>Moisturizing.</b> Massage is performed only after applying the cream. If you pull on dry skin, wrinkles and " \
+                    "&#9989;<b>Moisturizing.</b> Massage is performed only after applying the cream. If you pull on dry skin, wrinkles and " \
                     "various damages may appear. Apply a lightweight cream or oil in a small amount along the massage lines.",
             'image_url': 'img/prepare.jpg'
         },
@@ -344,21 +344,21 @@ messages = {
             'image_url': 'img/benefits.jpg'
         },
         'Mistakes': {
-            'text': "<b>1. You are doing the massage in the morning.</b> It is better to perform the procedure in the evening, after applying night cream and going to bed. "
+            'text': "1. You are doing the massage in the morning. It is better to perform the procedure in the evening, after applying night cream and going to bed. "
                     "It is not advisable to apply makeup or expose your skin to the sun immediately after an intense massage. Active processes occur in the skin that can lead to pigmentation " \
-                    "and other problems.\n<b>2. You are not cleansing your face sufficiently.</b> It is necessary to remove not only dirt but also all traces of makeup. Using just a cleansing " \
-                    "milk is not enough. It is recommended to treat oily skin with a light peel or scrub before the massage.\n<b>3. You are using unsuitable products.</b> Dry skin should not be " \
+                    "and other problems.\n2. You are not cleansing your face sufficiently. It is necessary to remove not only dirt but also all traces of makeup. Using just a cleansing " \
+                    "milk is not enough. It is recommended to treat oily skin with a light peel or scrub before the massage.\n3. You are using unsuitable products. Dry skin should not be " \
                     "massaged with a light, quickly absorbing cream, while oily skin should be massaged with a rich oil. The consistency should be adjusted according to the oiliness " \
-                    "of the skin.\n<b>4. Your movements are chaotic.</b> Before starting the facial massage, carefully study videos or images depicting the massage lines. You should only " \
-                    "move along those lines, starting from the bottom (from the neck or chin to the forehead).\n<b>5. You are not following the recommended duration of the procedure.</b> " \
+                    "of the skin.\n4. Your movements are chaotic. Before starting the facial massage, carefully study videos or images depicting the massage lines. You should only " \
+                    "move along those lines, starting from the bottom (from the neck or chin to the forehead).\n5. You are not following the recommended duration of the procedure. " \
                     "A home massage should be done for about 10 minutes. If the procedure is too short or, on the contrary, too long, it can lead to a lack of effect or the appearance " \
-                    "of new wrinkles.\n<b>6. You underestimate skincare.</b> Massage alone is not enough to restore skin elasticity. It is necessary to use toners, creams, serums, emulsions " \
+                    "of new wrinkles.\n6. You underestimate skincare. Massage alone is not enough to restore skin elasticity. It is necessary to use toners, creams, serums, emulsions " \
                     "suitable for your skin type daily, and apply a nourishing mask once a week. Don't forget about the skin around the eyes. It should be nourished and moisturized in " \
-                    "the morning and evening using a specialized eye cream or gel.\n<b>7. You forget about the mirror.</b> Self-massage should only be done in front of a mirror. This way, you " \
+                    "the morning and evening using a specialized eye cream or gel.\n7. You forget about the mirror. Self-massage should only be done in front of a mirror. This way, you " \
                     "can control the pressure and intensity of the movements, and observe the skin's reaction. Without a mirror, it is difficult to assess how strongly and synchronously " \
-                    "you are massaging your face.\n<b>8. You forget about posture.</b> In a salon, facial massage is done in a lying position. If you choose self-massage, it is better to " \
+                    "you are massaging your face.\n8. You forget about posture. In a salon, facial massage is done in a lying position. If you choose self-massage, it is better to " \
                     "perform it standing or sitting, but with a straight back. Improper posture can cause excessive tension or sagging of the facial skin, making the massage procedure " \
-                    "more challenging.\n<b>9. Consistency.</b> If you only perform massage from time to time, you won't see noticeable results.",
+                    "more challenging.\n9. Consistency. If you only perform massage from time to time, you won't see noticeable results.",
             'image_url': 'image_url'
         },
         'Contraindications': {
@@ -390,169 +390,38 @@ messages = {
             'image_url': 'img/classic.jpg'
         },
         'Plastic massage': {
-<<<<<<< HEAD
-            'text': "With smooth, slightly pressing movements, knead the sides of the neck from top to bottom to stimulate blood and lymph flow. Maintaining the pressure, " \
-                    "carefully go over the face with both hands, as if gently smoothing the face from the center to the periphery.\n\n" \
-                    "1. Cheeks (lower and upper part) - from the center to the ears.\n2. Nasal bridge (including eyebrows) - from the center to the temples.\n3. Forehead - from " \
-                    "the center to the temples, then towards the ears and downward along the neck to the collarbone hollows.\n\n" \
-                    "Repeat 5-6 times, gradually increasing the pressure. There should be no painful sensations.\n\nThe same facial areas are actively worked on with firm fingers " \
-                    "using circular motions, always following the massage lines - from the center to the edges. This helps tone both the skin and muscles. Finish the kneading by " \
-                    "working on the area under the chin and neck.\n\nYou can increase the intensity by using the phalanges of your fingers to lightly pinch and grasp the skin. " \
-                    "The direction of the movements remains the same." \
-                    "\n\nThe final technique is alternating and rapid tapping of the fingers on the face, as if you are &quot;beating&quot; the skin.\n\n" \
-                    "1. Cheeks (one at a time) - from bottom to top, towards the ears.\n2. Under the chin.\n3. Forehead - from the center to the temple area.\n\n" \
-                    "Finish the procedure with smooth gliding strokes on the face from the center to the periphery.",
-            'image_url': 'image_url'
-        },
-        'Lymphatic drainage massage': {
-            'text': "Lymphatic drainage massage can be easily learned and performed at home, the main thing is to " \
-                    "understand the principle and memorize the location of just a few points. So, the goal of this massage is " \
-                    "to propel fluid through the lymphatic channels towards the lymph nodes.\n\n" \
-                    "We are interested in 4 paired points:\n" \
-                    "1. Underarms\n" \
-                    "2. Hollows above the collarbones\n" \
-                    "3. Points under the jaw angle (usually palpated by a doctor during an examination, you are familiar " \
-                    "with them since childhood)\n" \
-                    "4. Points near the ears\n\n" \
-                    "Please note that pressing on lymph nodes and compressing them is not allowed!\n\n" \
-                    "The massage is divided into two stages: activation of points and fluid drainage.\n" \
-                    "Activation:\n" \
-                    "Underarms: Cross your hands over your chest, placing your fingers under your armpits, and " \
-                    "perform five gentle squeezing movements with your fingers.\n" \
-                    "Clavicles: Position your fingers in the hollows above the collarbones, take a few breaths, " \
-                    "applying light pressure with your fingers on the exhale.\n" \
-                    "Submandibular glands: Perform a few very gentle pressing movements on the exhale.\n" \
-                    "In front of the ear: Stroke the area in front of the ear from top to bottom.\n" \
-                    "Neck: To open the main channel, stroke the sides of the neck towards the collarbones.\n\n" \
-                    "Massage\n\n" \
-                    "So, the points are activated, you can proceed with the massage.\n\n" \
-                    "1. Start the massage from the center of the chin, directing the fluid towards the lymph nodes " \
-                    "under the jaw, then downwards through the neck to the clavicles and further to the armpits.\n" \
-                    "2. Move upward towards the center of the upper lip. Continue moving towards our points through " \
-                    "the cheeks, under the jaw, through the neck to the clavicles, and downwards to the armpits. At " \
-                    "this stage, the pattern of the massage and its principle should be clear. Move upward.\n" \
-                    "3. Points near the nostrils. Move downward through the cheeks and points under the jaw, through " \
-                    "the neck to the clavicles, and downwards to the armpits.\n" \
-                    "4. At this point, the points near the ear are involved. Place the fingertips at the inner corners of the " \
-                    "eyes, move towards the points near the ear, downward through the tear trough. Then follow " \
-                    "the established path: towards the jaw, clavicles, and armpits.\n" \
-                    "5. Start from the point between the eyebrows, follow the eyebrow line, and move downward " \
-                    "using the same path as in the previous steps.\n" \
-                    "6. From the center of the forehead to the sides, then downwards: ear - jaw - clavicles - armpits.\n\n" \
-                    "It may seem complicated in words, but once you perform this massage following the instructions, you " \
-                    "will remember it forever. How often can you do this massage? Since it is simple and safe, you can do it " \
-                    "every day, two to three times a week, or use it as an SOS remedy to quickly &qout;relieve&qout; your face. The " \
-                    "main thing is to understand the principle; the rest is a matter of technique.",
-            'image_url': 'image_url'
-=======
             'text': "text",
             'image_url': 'img/plastic.jpg'
         },
         'Lymphatic drainage massage': {
             'text': 'Text',
             'image_url': 'img/limfa.jpg'
->>>>>>> 183147fab81d2418087b0a78a636d38cd90d40ab
         },
         # Types of facial massagers
         'Mechanical': {
-            'text': "These massagers work based on the principle of mechanical stimulation of different layers of the skin. " \
-                    "The stimulation can be in the form of pressure, rolling, tapping, vibration, or their combinations. They " \
-                    "are usually handheld massagers made of various materials such as wood, silicone, glass, or jade.",
+            'text': 'Text',
             'image_url': 'image_url'
         },
         'Vacuum': {
-            'text': "These massagers are used to combat age-related skin changes like wrinkles, loss of tone, and sagging, as " \
-                    "well as for deep cleansing. Vacuum attachments are used for cleaning the facial skin, helping to remove " \
-                    "deep-seated impurities and blackheads. In a way, vacuum devices are more focused on cleansing.\n" \
-                    "However, they also provide stimulating, toning, and anti-aging effects on the skin.\n\n" \
-                    "Blood circulation and lymphatic flow are accelerated, metabolism and cellular exchange within " \
-                    "the inner layers of the skin are increased. The skin regains its elasticity and smoothness.\n" \
-                    "Cell regeneration is accelerated, leading to faster healing of post-acne marks and pigmentation," \
-                    "and active production of collagen begins.\n\n" \
-                    "Many models of vacuum massagers come with multiple attachments that can be used not only on the " \
-                    "face but also on the body. After each use, it is necessary to thoroughly clean the attachments since they " \
-                    "can retain the contents of the pores.",
+            'text': 'Text',
             'image_url': 'image_url'
         },
         'Ultrasonic': {
-            'text': "The operation of ultrasonic massagers is based on the application of ultrasonic waves to the upper " \
-                    "layers of the skin. Massaging with such a device allows for:\n\n" \
-                    "To clean the skin more thoroughly and deeply from impurities, sebum, and remove dead " \
-                    "epidermal cells, and to tighten pores;\n" \
-                    "To maximize the penetration of beneficial substances from cosmetic products into the deeper " \
-                    "layers of the skin;\n" \
-                    "To prolong the effect of the procedure by creating a reserve of beneficial substances in the skin " \
-                    "layers.\n\n" \
-                    "Ultrasound, like vacuum, also cleanses the skin. But in addition to that, during the procedures, its tone is " \
-                    "increased, unevenness is smoothed out, and collagen production occurs, which makes the skin firmer and more elastic.",
-            'image_url': 'image_url'
-        },
-        'Microcurrent': {
-            'text': "Microcurrent massage is most commonly used in skincare for visible signs of aging. The principle of " \
-                    "operation of a microcurrent massager is based on stimulating skin cells with electrical impulses of " \
-                    "varying intensity (depending on the issue). Microcurrent therapy involves the use of low-frequency " \
-                    "currents to:\n\n" \
-                    "It restores all layers of the skin.\n" \
-                    "It normalizes microcirculation of blood and lymphatic flow.\n" \
-                    "It relaxes the facial mimic muscles.\n" \
-                    "It enhances lymphatic flow and blood supply.\n" \
-                    "It improves metabolic processes in skin cells.\n\n" \
-                    "All of this helps to address issues such as pigmentation spots, acne scars, acne breakouts, wrinkle " \
-                    "correction, facial contouring, restoring skin elasticity and firmness, reducing swelling and sagging. As a " \
-                    "result of microcurrent stimulation, the production of collagen and elastin is enhanced, which reduces " \
-                    "the depth of wrinkles, restores skin elasticity and tone, rejuvenating it from within.\n\n" \
-                    "Microcurrents also promote better penetration of cosmetic products into the deeper layers of the skin, stimulate metabolism, and tone the muscles.",
+            'text': 'Text',
             'image_url': 'image_url'
         },
         'Multifunctional': {
-            'text': "Nowadays, many massagers combine multiple types of treatment. For example, mechanical, infrared, " \
-                    "and microcurrent. This helps achieve long-lasting results and makes skincare procedures more " \
-                    "convenient.\n\n" \
-                    "Vibrational massage: Improves blood circulation, metabolism, and has a draining effect.\n" \
-                    "Electrostimulation (EMS): Strengthens facial muscles through short-pulsed electrical currents. The " \
-                    "muscles contract, simulating movements, which tightens them, while overly tense muscles relax.\n" \
-                    "Microcurrents: As mentioned earlier, this mode restores all layers of the skin and activates metabolic " \
-                    "processes.\n" \
-                    "Chromotherapy: Works with different colored light rays: red (promotes the formation of new collagen, " \
-                    "accelerates regeneration), yellow (draining effect, detoxification), violet (antibacterial and soothing " \
-                    "effect).\n" \
-                    "Infrared or RF-lifting: Based on heating the skin with infrared radiation. It stimulates facial muscles and " \
-                    "improves blood circulation. As a result, the skin becomes smoother, firmer, and wrinkles are reduced. " \
-                    "Infrared massage is also used for quick healing in various injuries.",
+            'text': 'Text',
             'image_url': 'image_url'
         },
 
         # -- NUTRITION --
         'Vitamins and Micronutrients': {
-            'text': "PROTEIN. The main building material: amino acids are necessary for the synthesis of collagen fibers, " \
-                    "which are responsible for skin elasticity.\n\n" \
-                    "OMEGA-3 AND OMEGA-6 FATTY ACIDS. Essential for lipid synthesis, they possess pronounced antiinflammatory properties and slow down the aging process.\n\n" \
-                    "DIETARY FIBER. A natural sorbent: absorbs and eliminates toxic substances (nitrates, pesticides, heavy " \
-                    "metal salts).\n\n" \
-                    "MELANIN. Responsible for pigmentation.\n\n" \
-                    "HEMOGLOBIN. Enriches cells with oxygen.\n\n" \
-                    "BETA-CAROTENE. Natural antioxidant that protects against premature aging and evens out skin tone.\n\n" \
-                    "VITAMIN A (RETINOL). Participates in collagen synthesis and improves skin elasticity.\n\n" \
-                    "B-VITAMINS. Necessary for normalizing metabolic processes in the skin, particularly lipid and protein " \
-                    "metabolism.\n\n" \
-                    "VITAMIN C. One of the main antioxidants that participates in collagen synthesis.\n\n" \
-                    "VITAMIN E. Prevents the formation of wrinkles and combats dryness.\n\n" \
-                    "VITAMIN H (BIOTIN). A natural vasodilator component that helps make dull skin healthy and radiant.\n\n" \
-                    "ZINC. Possesses anti-inflammatory properties and regulates sebaceous gland function.\n\n" \
-                    "CALCIUM. Participates in the synthesis of structural elements of the skin.",
+            'text': 'Text',
             'image_url': 'image_url'
         },
         'Healthy products': {
-            'text': "Here is a list of products needed to improve the condition of the skin:\n\n" \
-                    "1. Nuts are a rich source of omega-3 fatty acids, melanin, and vitamins B and E. Consuming a small " \
-                    "portion per day is sufficient.\n" \
-                    "2. Whole grain cereals, pasta made from durum wheat, brown unpolished rice, whole wheat " \
-                    "bread, and bran bread are the primary sources of dietary fiber and vitamin B.\n" \
-                    "3. Fish and seafood provide the body with protein, melanin, zinc, vitamin B, and omega-3 fatty " \
-                    "acids.\n" \
-                    "4. Lean meats and beef or pork liver are also rich in protein, as well as iron, vitamins A and B.\n" \
-                    "5. Dairy products (including cheese and cottage cheese) are known for their calcium content and " \
-                    "beneficial protein.",
+            'text': "text",
             'image_url': 'image_url'
         },
         'Unhealthy products': {
@@ -563,7 +432,7 @@ messages = {
                     "&#52;Coffee. While moderate amounts of coffee act as an antioxidant, excessive consumption (more than four cups a day) is likely to cause restlessness and sleep problems. \nA lack of quality sleep affects your appearance as cell renewal occurs during this time. \nThe result of sleep deprivation is tired, dull, dry, and wrinkle-prone skin. But that's not all yet.\n" \
                     "IMPORTANT: For individuals with slow metabolism, coffee can stimulate the activity of sebaceous glands, which in turn can lead to the formation of comedones and pimples.\n\n" \
                     "<b><u>Alcohol</u></b>\n\n" \
-                    "Excessive alcohol consumption leads to dehydration of the body as a whole, including the skin. The reason is that alcohol has a pronounced diuretic effect.\n\n",
+                    "Excessive alcohol consumption leads to dehydration of the body as a whole, including the skin. The reason is that alcohol has a pronounced diuretic effect.",
             'image_url': 'image_url'
         },
         'Drinking regime': {
