@@ -343,32 +343,6 @@ messages = {
                     "&#128900;The complexion appears healthy and vibrant",
             'image_url': 'img/benefits.jpg'
         },
-        'Mistakes': {
-            'text': "1. You are doing the massage in the morning. It is better to perform the procedure in the evening, after applying night cream and going to bed. "
-                    "It is not advisable to apply makeup or expose your skin to the sun immediately after an intense massage. Active processes occur in the skin that can lead to pigmentation " \
-                    "and other problems.\n2. You are not cleansing your face sufficiently. It is necessary to remove not only dirt but also all traces of makeup. Using just a cleansing " \
-                    "milk is not enough. It is recommended to treat oily skin with a light peel or scrub before the massage.\n3. You are using unsuitable products. Dry skin should not be " \
-                    "massaged with a light, quickly absorbing cream, while oily skin should be massaged with a rich oil. The consistency should be adjusted according to the oiliness " \
-                    "of the skin.\n4. Your movements are chaotic. Before starting the facial massage, carefully study videos or images depicting the massage lines. You should only " \
-                    "move along those lines, starting from the bottom (from the neck or chin to the forehead).\n5. You are not following the recommended duration of the procedure. " \
-                    "A home massage should be done for about 10 minutes. If the procedure is too short or, on the contrary, too long, it can lead to a lack of effect or the appearance " \
-                    "of new wrinkles.\n6. You underestimate skincare. Massage alone is not enough to restore skin elasticity. It is necessary to use toners, creams, serums, emulsions " \
-                    "suitable for your skin type daily, and apply a nourishing mask once a week. Don't forget about the skin around the eyes. It should be nourished and moisturized in " \
-                    "the morning and evening using a specialized eye cream or gel.\n7. You forget about the mirror. Self-massage should only be done in front of a mirror. This way, you " \
-                    "can control the pressure and intensity of the movements, and observe the skin's reaction. Without a mirror, it is difficult to assess how strongly and synchronously " \
-                    "you are massaging your face.\n8. You forget about posture. In a salon, facial massage is done in a lying position. If you choose self-massage, it is better to " \
-                    "perform it standing or sitting, but with a straight back. Improper posture can cause excessive tension or sagging of the facial skin, making the massage procedure " \
-                    "more challenging.\n9. Consistency. If you only perform massage from time to time, you won't see noticeable results.",
-            'image_url': 'image_url'
-        },
-        'Contraindications': {
-            'text': "First of all, local problems are a contraindication:\nPurulent acne\nRosacea (&quot;rosy acne&quot; caused by chronically dilated capillaries)" \
-                    "\nSkin integrity disruption: wounds, scratches, burns, bites\nViral skin infections: herpes, eczema, viral warts, etc.\nProminent spider veins, fragile blood " \
-                    "vessels, and other vascular disorders\nMalignant tumors\nEndocrine system disorders\nPsoriasis\n\n" \
-                    "Also, one should take into account the overall health condition. Massage is contraindicated in cases of high body temperature, elevated blood pressure, " \
-                    "exacerbation of chronic diseases, cancer, active inflammatory processes in the body, and blood disorders.",
-            'image_url': 'image_url'
-        },
         # Types of Home Facial Massage and Techniques
         'Classic massage': {
             'text': "<b><u>Classic massage</u></b>\n\n" \
@@ -443,6 +417,32 @@ messages = {
                     "every day, two to three times a week, or use it as an SOS remedy to quickly &qout;relieve&qout; your face. The " \
                     "main thing is to understand the principle; the rest is a matter of technique.",
             'image_url': 'img/limfa.jpg'
+        },
+        'Mistakes': {
+            'text': "1. You are doing the massage in the morning. It is better to perform the procedure in the evening, after applying night cream and going to bed. "
+                    "It is not advisable to apply makeup or expose your skin to the sun immediately after an intense massage. Active processes occur in the skin that can lead to pigmentation " \
+                    "and other problems.\n2. You are not cleansing your face sufficiently. It is necessary to remove not only dirt but also all traces of makeup. Using just a cleansing " \
+                    "milk is not enough. It is recommended to treat oily skin with a light peel or scrub before the massage.\n3. You are using unsuitable products. Dry skin should not be " \
+                    "massaged with a light, quickly absorbing cream, while oily skin should be massaged with a rich oil. The consistency should be adjusted according to the oiliness " \
+                    "of the skin.\n4. Your movements are chaotic. Before starting the facial massage, carefully study videos or images depicting the massage lines. You should only " \
+                    "move along those lines, starting from the bottom (from the neck or chin to the forehead).\n5. You are not following the recommended duration of the procedure. " \
+                    "A home massage should be done for about 10 minutes. If the procedure is too short or, on the contrary, too long, it can lead to a lack of effect or the appearance " \
+                    "of new wrinkles.\n6. You underestimate skincare. Massage alone is not enough to restore skin elasticity. It is necessary to use toners, creams, serums, emulsions " \
+                    "suitable for your skin type daily, and apply a nourishing mask once a week. Don't forget about the skin around the eyes. It should be nourished and moisturized in " \
+                    "the morning and evening using a specialized eye cream or gel.\n7. You forget about the mirror. Self-massage should only be done in front of a mirror. This way, you " \
+                    "can control the pressure and intensity of the movements, and observe the skin's reaction. Without a mirror, it is difficult to assess how strongly and synchronously " \
+                    "you are massaging your face.\n8. You forget about posture. In a salon, facial massage is done in a lying position. If you choose self-massage, it is better to " \
+                    "perform it standing or sitting, but with a straight back. Improper posture can cause excessive tension or sagging of the facial skin, making the massage procedure " \
+                    "more challenging.\n9. Consistency. If you only perform massage from time to time, you won't see noticeable results.",
+            'image_url': 'image_url'
+        },
+        'Contraindications': {
+            'text': "First of all, local problems are a contraindication:\nPurulent acne\nRosacea (&quot;rosy acne&quot; caused by chronically dilated capillaries)" \
+                    "\nSkin integrity disruption: wounds, scratches, burns, bites\nViral skin infections: herpes, eczema, viral warts, etc.\nProminent spider veins, fragile blood " \
+                    "vessels, and other vascular disorders\nMalignant tumors\nEndocrine system disorders\nPsoriasis\n\n" \
+                    "Also, one should take into account the overall health condition. Massage is contraindicated in cases of high body temperature, elevated blood pressure, " \
+                    "exacerbation of chronic diseases, cancer, active inflammatory processes in the body, and blood disorders.",
+            'image_url': 'image_url'
         },
         # Types of facial massagers
         'Mechanical': {
