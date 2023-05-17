@@ -106,7 +106,7 @@ messages = {
                 'В основе их работы лежит принцип механического воздействия на различные слои кожи. Воздействие может быть нескольких видов: надавливание, прокатывание, покалывание, вибрация или их различные сочетания.\n' \
                 'Это, как правило, ручные массажёры из разных материалов: деревянные, силиконовые, стеклянные, нефритовые.'
             ,
-            'image_url': 'swedish_massage_image_url'
+            'image_url': 'img/mehanicheskiy.jpg'
         },
         'Вакуумные массажеры для лица': {
             'text':
@@ -116,7 +116,7 @@ messages = {
                 '&#9899;Ускоряется восстановление клеток, благодаря чему быстрее проходят постакне и пигментация, начинает активно вырабатываться коллаген.\n\n' \
                 'Многие модели вакуумных массажёров имеют несколько насадок, которые можно использовать не только на лице, но и на теле. После каждого использования насадки необходимо тщательно мыть, ведь внутри них остаётся содержимое пор.'
             ,
-            'image_url': 'swedish_massage_image_url'
+            'image_url': 'img/vacuumn.jpg'
         },
         'Ультразвуковые массажеры для лица': {
             'text':
@@ -126,7 +126,7 @@ messages = {
                 '&#9899;продлить эффект от процедуры, создавая в слоях кожи запас полезных веществ.\n\n' \
                 'Ультразвук, как и вакуум, тоже чистит кожу. Но кроме этого во время процедур повышается её тонус, разглаживаются неровности и происходит выработка коллагена, который делает кожу более плотной и упругой.'
             ,
-            'image_url': 'swedish_massage_image_url'
+            'image_url': 'img/ultrazvukovie.jpg'
         },
         'Микротоковые массажеры для лица': {
             'text':
@@ -140,7 +140,7 @@ messages = {
                 'Все это помогает решить проблемы пигментных пятен, следов постакне, угревой сыпи, скорректировать морщины и овал лица, вернуть коже упругость и плотность, убрать отёки и дряблость. В результате воздействия микротоков стимулируется выработка собственного коллагена и эластина, что уменьшает глубину морщин, возвращает коже упругость и тонус, омолаживая её изнутри.\n' \
                 'Микротоки также способствуют лучшему проникновению косметических средств в глубокие слои кожи, стимулируют обмен веществ и приводят в тонус мышцы.'
             ,
-            'image_url': 'deep_tissue_massage_image_url'
+            'image_url': 'img/microtokovii.jpg'
         },
         'Многофункциональные массажеры для лица': {
             'text':
@@ -151,7 +151,7 @@ messages = {
                 '<b>Хромотерапия.</b> Работает с помощью световых лучей разного цвета: красный (образование молодого коллагена, ускорение регенерации), жёлтый (дренажный эффект, очищение от токсинов), фиолетовый (антибактериальное и успокаивающее действие).\n' \
                 '<b>Инфракрасное действие или RF-лифтинг.</b> Основано на прогревании кожи инфракрасным излучением. Стимулирует лицевые мышцы и улучшает кровообращение. В результате кожа лица разглаживается, становится более упругой и гладкой, уменьшаются морщины. Инфракрасный массаж также назначают при различных травмах для их быстрого заживления.'
             ,
-            'image_url': 'deep_tissue_massage_image_url'
+            'image_url': 'img/mnogofunk.jpg'
         },
         'Ошибки, совершаемые во время массажа': {
             'text':
@@ -165,7 +165,7 @@ messages = {
                 '&#56;<b>Забываете про осанку.</b> В салоне массаж лица делается в положении лежа. Если вы выбрали самомассаж, то лучше выполнять его стоя или сидя, но только с прямой спиной. При неправильной осанке кожа на лице натягивается слишком сильно или, наоборот, начинает подвисать, что усложняет процедуру массажа.\n' \
                 '&#57;<b>Регулярность.</b> Если вы будете делать массаж время от времени, заметного результата не будет.'
             ,
-            'image_url': 'lymphatic_drainage_massage_image_url'
+            'image_url': 'img/oshibki.jpg'
         },
         'Противопоказания': {
             'text':
@@ -180,7 +180,7 @@ messages = {
                 '&#9899;псориаз\n\n' \
                 'Также стоит учитывать общее здоровье. Массаж противопоказан при высокой температуре, повышенном давлении, обострении хронических болезней, онкологии, активных воспалительных процессах в организме, заболеваниях крови.'
             ,
-            'image_url': 'lymphatic_drainage_massage_image_url'
+            'image_url': 'img/protivopokazania.jpg'
         },
         # ПИТАНИЕ
         'Витамины и микроэлементы': {
@@ -200,7 +200,7 @@ messages = {
                 '<b>КАЛЬЦИЙ.</b> Участвует в синтезе структурных элементов кожи.'
 
             ,
-            'image_url': 'lymphatic_drainage_massage_image_url'
+            'image_url': 'img/vitamins.jpg'
         },
         'Полезные продукты.': {
             'text':
@@ -211,7 +211,7 @@ messages = {
                 '&#52;Нежирное мясо, говяжья и свиная печень также богаты белком, а еще железом, витаминами A и Н.\n' \
                 '&#53;Кисломолочные продукты (в том числе сыр и творог) славятся содержанием кальция и полезного белка.'
             ,
-            'image_url': 'benefits_of_massage_image_url'
+            'image_url': 'img/healthy_food.jpg'
         },
         'Питьевой режим': {
             'text':
@@ -219,7 +219,7 @@ messages = {
                 '<u>ВАЖНО:</u> Речь идет именно о чистой негазированной воде. А вот чай, кофе, соки, компоты в эту норму не входят.\n\n' \
                 'Распределите весь объем жидкости на день так, чтобы не пить после 19:00 — иначе возможно образование отеков. Чтобы помнить о том, что надо чаще пить, держите бутылочки с водой на рабочем столе, на тумбочке возле кровати, в машине и т.д.'
             ,
-            'image_url': 'benefits_of_massage_image_url'
+            'image_url': 'img/pitevoy_rezhimjpg.jpg'
         },
         'Правила питания для здоровой кожи': {
             'text':
@@ -230,7 +230,7 @@ messages = {
                 '&#9899;Пейте достаточное количество воды.\n' \
                 '&#9899;Исключите из рациона вредную пищу'
             ,
-            'image_url': 'benefits_of_massage_image_url'
+            'image_url': 'img/healthy_food.jpg'
         },
         'Вредные продукты': {
             'text':
@@ -243,7 +243,7 @@ messages = {
                 '<b><u>Алкоголь</u></b>\n' \
                 'Злоупотребление алкоголем приводит к обезвоживанию организма в целом и кожи в частности. дело в том, что алкоголь обладает выраженным мочегонным эффектом.'
             ,
-            'image_url': 'benefits_of_massage_image_url'
+            'image_url': 'img/junk_food.jpg'
         },
         # CОН
         'Сколько нужно спать и почему вредно недосыпать?': {
@@ -271,7 +271,7 @@ messages = {
                 '&#52;Четвертый этап – увлажнение. Ночной крем или ночная маска помогают коже восстанавливаться и избавляться от последствий дневных стрессов. Только при достаточном уровне влаги клетки кожи работают в полную силу.\n' \
                 '&#53;Этап пятый – сон. Мы уже писали, что для полноценной выработки мелатонина необходимо спать в максимальной темноте, чтобы на радужную оболочку глаз не попадал свет. Если такой возможности нет, попробуйте маски для сна. Даже мерцающие лампочки гаджетов мешают мелатонину вырабатываться, сбивая наши биологические часы.'
             ,
-            'image_url': 'img/nosleep.jpg'
+            'image_url': 'img/posle_bessonici.jpg'
         },
         'Что съесть, чтобы крепко спать?': {
             'text':
@@ -282,7 +282,7 @@ messages = {
                 '&#53;<b>Апигенин.</b> Этот антиоксидант связан с рецепторами головного мозга и помогает ему настроиться на отдых. Ромашковый чай содержит высокую концентрацию апигенина.\n' \
                 '&#54;<b>Серотонин.</b> Исследования установили, что вещества, способствующие выработке серотонина, помогают головному мозгу лучше регулировать циклы сна. Например, если употреблять киви в пищу в вечернее время, качество сна заметно улучшится.'
             ,
-            'image_url': 'img/food_sleep.jpg'
+            'image_url': 'img/krepkii_son.jpg'
         },
         'Правила "Доброй ночи"': {
             'text':
@@ -434,7 +434,7 @@ messages = {
                     "you are massaging your face.\n8. You forget about posture. In a salon, facial massage is done in a lying position. If you choose self-massage, it is better to " \
                     "perform it standing or sitting, but with a straight back. Improper posture can cause excessive tension or sagging of the facial skin, making the massage procedure " \
                     "more challenging.\n9. Consistency. If you only perform massage from time to time, you won't see noticeable results.",
-            'image_url': 'image_url'
+            'image_url': 'img/oshibki.jpg'
         },
         'Contraindications': {
             'text': "First of all, local problems are a contraindication:\nPurulent acne\nRosacea (&quot;rosy acne&quot; caused by chronically dilated capillaries)" \
@@ -442,14 +442,14 @@ messages = {
                     "vessels, and other vascular disorders\nMalignant tumors\nEndocrine system disorders\nPsoriasis\n\n" \
                     "Also, one should take into account the overall health condition. Massage is contraindicated in cases of high body temperature, elevated blood pressure, " \
                     "exacerbation of chronic diseases, cancer, active inflammatory processes in the body, and blood disorders.",
-            'image_url': 'image_url'
+            'image_url': 'img/protivopokazania.jpg'
         },
         # Types of facial massagers
         'Mechanical': {
             'text': "These massagers work based on the principle of mechanical stimulation of different layers of the skin. " \
                     "The stimulation can be in the form of pressure, rolling, tapping, vibration, or their combinations. They " \
                     "are usually handheld massagers made of various materials such as wood, silicone, glass, or jade.",
-            'image_url': 'image_url'
+            'image_url': 'img/mehanicheskiy.jpg'
         },
         'Vacuum': {
             'text': "These massagers are used to combat age-related skin changes like wrinkles, loss of tone, and sagging, as " \
@@ -463,7 +463,7 @@ messages = {
                     "Many models of vacuum massagers come with multiple attachments that can be used not only on the " \
                     "face but also on the body. After each use, it is necessary to thoroughly clean the attachments since they " \
                     "can retain the contents of the pores.",
-            'image_url': 'image_url'
+            'image_url': 'img/vacuumn.jpg'
         },
         'Ultrasonic': {
             'text': "The operation of ultrasonic massagers is based on the application of ultrasonic waves to the upper " \
@@ -476,7 +476,7 @@ messages = {
                     "layers.\n\n" \
                     "Ultrasound, like vacuum, also cleanses the skin. But in addition to that, during the procedures, its tone is " \
                     "increased, unevenness is smoothed out, and collagen production occurs, which makes the skin firmer and more elastic.",
-            'image_url': 'image_url'
+            'image_url': 'img/ultrazvukovie.jpg'
         },
         'Multifunctional': {
             'text': "Nowadays, many massagers combine multiple types of treatment. For example, mechanical, infrared, " \
@@ -493,7 +493,7 @@ messages = {
                     "Infrared or RF-lifting: Based on heating the skin with infrared radiation. It stimulates facial muscles and " \
                     "improves blood circulation. As a result, the skin becomes smoother, firmer, and wrinkles are reduced. " \
                     "Infrared massage is also used for quick healing in various injuries.",
-            'image_url': 'image_url'
+            'image_url': 'img/mnogofunk.jpg'
         },
         'Microcurrent': {
             'text': "Microcurrent massage is most commonly used in skincare for visible signs of aging. The principle of " \
@@ -510,17 +510,17 @@ messages = {
                     "result of microcurrent stimulation, the production of collagen and elastin is enhanced, which reduces " \
                     "the depth of wrinkles, restores skin elasticity and tone, rejuvenating it from within.\n\n" \
                     "Microcurrents also promote better penetration of cosmetic products into the deeper layers of the skin, stimulate metabolism, and tone the muscles.",
-            'image_url': 'image_url'
+            'image_url': 'img/microtokovii.jpg'
         },
 
         # -- NUTRITION --
         'Vitamins and Micronutrients': {
             'text': 'Text',
-            'image_url': 'image_url'
+            'image_url': 'img/vitamins.jpg'
         },
         'Healthy products': {
             'text': "text",
-            'image_url': 'image_url'
+            'image_url': 'img/healthy_food.jpg'
         },
         'Unhealthy products': {
             'text': "If you want to get rid of pimples, dryness, and other skin problems, limit the consumption of these products:\n\n" \
@@ -531,7 +531,7 @@ messages = {
                     "IMPORTANT: For individuals with slow metabolism, coffee can stimulate the activity of sebaceous glands, which in turn can lead to the formation of comedones and pimples.\n\n" \
                     "<b><u>Alcohol</u></b>\n\n" \
                     "Excessive alcohol consumption leads to dehydration of the body as a whole, including the skin. The reason is that alcohol has a pronounced diuretic effect.",
-            'image_url': 'image_url'
+            'image_url': 'img/junk_food.jpg'
         },
         'Drinking regime': {
             'text': "Hydration is crucial for the body. Water helps restore the skin that has been damaged by the sun, wind, and dry indoor air from heating systems, returning " \
@@ -539,7 +539,7 @@ messages = {
                     "water (approximately 30 ml per kilogram of body weight).\n\nIMPORTANT: It is specifically about pure non-carbonated water. Tea, coffee, juices, and fruit drinks do " \
                     "not count toward this water intake.\n\nDistribute your total fluid intake throughout the day and avoid drinking water after 7:00 PM to prevent the formation of " \
                     "edema. To remind yourself to drink more often, keep water bottles on your desk, bedside table, in the car, and so on.",
-            'image_url': 'image_url'
+            'image_url': 'img/pitevoy_rezhimjpg.jpg'
         },
         'Dietary rules for healthy skin': {
             'text': "Analyzing the obtained information allows us to establish a nutrition system.\n\n" \
@@ -549,7 +549,7 @@ messages = {
                     "&#51;For breakfast and lunch, consume protein-rich foods, while in the evening, give preference to cooked vegetables, grains, and dairy products.\n" \
                     "&#52;Drink an adequate amount of water.\n" \
                     "&#53;Exclude harmful food from your diet.",
-            'image_url': 'image_url'
+            'image_url': 'img/healthy_food.jpg'
         },
 
         # -- SLEEP --
@@ -586,7 +586,7 @@ messages = {
                     "&#53;The fifth stage is sleep. As mentioned before, for the proper production of melatonin, it is necessary to sleep in complete darkness to prevent light from " \
                     "reaching the eyes' retina. If this is not possible, try using sleep masks. Even flickering gadget lights can interfere with the production of melatonin, " \
                     "disrupting our biological clocks.",
-            'image_url': 'img/no_sleep.jpg'
+            'image_url': 'img/posle_bessonici.jpg'
         },
         'What to eat to sleep well?': {
             'text': "&#49;<b><u>Magnesium</u></b> is necessary for promoting normal sleep as it has a pronounced anti-inflammatory effect. Additionally, it helps reduce cortisol levels " \
@@ -603,7 +603,7 @@ messages = {
                     "concentration of apigenin.\n" \
                     "&#53;<b><u>Serotonin</u></b>. Research has shown that substances that promote serotonin production help thebrain regulate sleep cycles better. For example, consuming " \
                     "kiwi in the evening significantlyimproves sleep quality.",
-            'image_url': 'img/food_sleep.jpg'
+            'image_url': 'img/krepkii_son.jpg'
         },
         'The rules of "Good night"': {
             'text': "1. Many elements need a helper - insulin. And insulin, in turn, is produced in response to &quot;slow&quot; carbohydrates. Choose foods that are rich in proteins " \
