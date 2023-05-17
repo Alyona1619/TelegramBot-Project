@@ -390,28 +390,126 @@ messages = {
             'image_url': 'img/classic.jpg'
         },
         'Plastic massage': {
-            'text': "text",
+            'text': "With smooth, slightly pressing movements, knead the sides of the neck from top to bottom to stimulate blood and lymph flow. Maintaining the pressure, " \
+                    "carefully go over the face with both hands, as if gently smoothing the face from the center to the periphery.\n\n" \
+                    "1. Cheeks (lower and upper part) - from the center to the ears.\n2. Nasal bridge (including eyebrows) - from the center to the temples.\n3. Forehead - from " \
+                    "the center to the temples, then towards the ears and downward along the neck to the collarbone hollows.\n\n" \
+                    "Repeat 5-6 times, gradually increasing the pressure. There should be no painful sensations.\n\nThe same facial areas are actively worked on with firm fingers " \
+                    "using circular motions, always following the massage lines - from the center to the edges. This helps tone both the skin and muscles. Finish the kneading by " \
+                    "working on the area under the chin and neck.\n\nYou can increase the intensity by using the phalanges of your fingers to lightly pinch and grasp the skin. " \
+                    "The direction of the movements remains the same." \
+                    "\n\nThe final technique is alternating and rapid tapping of the fingers on the face, as if you are &quot;beating&quot; the skin.\n\n" \
+                    "1. Cheeks (one at a time) - from bottom to top, towards the ears.\n2. Under the chin.\n3. Forehead - from the center to the temple area.\n\n" \
+                    "Finish the procedure with smooth gliding strokes on the face from the center to the periphery.",
             'image_url': 'img/plastic.jpg'
         },
         'Lymphatic drainage massage': {
-            'text': 'Text',
+            'text': "Lymphatic drainage massage can be easily learned and performed at home, the main thing is to " \
+                    "understand the principle and memorize the location of just a few points. So, the goal of this massage is " \
+                    "to propel fluid through the lymphatic channels towards the lymph nodes.\n\n" \
+                    "We are interested in 4 paired points:\n" \
+                    "1. Underarms\n" \
+                    "2. Hollows above the collarbones\n" \
+                    "3. Points under the jaw angle (usually palpated by a doctor during an examination, you are familiar " \
+                    "with them since childhood)\n" \
+                    "4. Points near the ears\n\n" \
+                    "Please note that pressing on lymph nodes and compressing them is not allowed!\n\n" \
+                    "The massage is divided into two stages: activation of points and fluid drainage.\n" \
+                    "Activation:\n" \
+                    "Underarms: Cross your hands over your chest, placing your fingers under your armpits, and " \
+                    "perform five gentle squeezing movements with your fingers.\n" \
+                    "Clavicles: Position your fingers in the hollows above the collarbones, take a few breaths, " \
+                    "applying light pressure with your fingers on the exhale.\n" \
+                    "Submandibular glands: Perform a few very gentle pressing movements on the exhale.\n" \
+                    "In front of the ear: Stroke the area in front of the ear from top to bottom.\n" \
+                    "Neck: To open the main channel, stroke the sides of the neck towards the collarbones.\n\n" \
+                    "Massage\n\n" \
+                    "So, the points are activated, you can proceed with the massage.\n\n" \
+                    "1. Start the massage from the center of the chin, directing the fluid towards the lymph nodes " \
+                    "under the jaw, then downwards through the neck to the clavicles and further to the armpits.\n" \
+                    "2. Move upward towards the center of the upper lip. Continue moving towards our points through " \
+                    "the cheeks, under the jaw, through the neck to the clavicles, and downwards to the armpits. At " \
+                    "this stage, the pattern of the massage and its principle should be clear. Move upward.\n" \
+                    "3. Points near the nostrils. Move downward through the cheeks and points under the jaw, through " \
+                    "the neck to the clavicles, and downwards to the armpits.\n" \
+                    "4. At this point, the points near the ear are involved. Place the fingertips at the inner corners of the " \
+                    "eyes, move towards the points near the ear, downward through the tear trough. Then follow " \
+                    "the established path: towards the jaw, clavicles, and armpits.\n" \
+                    "5. Start from the point between the eyebrows, follow the eyebrow line, and move downward " \
+                    "using the same path as in the previous steps.\n" \
+                    "6. From the center of the forehead to the sides, then downwards: ear - jaw - clavicles - armpits.\n\n" \
+                    "It may seem complicated in words, but once you perform this massage following the instructions, you " \
+                    "will remember it forever. How often can you do this massage? Since it is simple and safe, you can do it " \
+                    "every day, two to three times a week, or use it as an SOS remedy to quickly &qout;relieve&qout; your face. The " \
+                    "main thing is to understand the principle; the rest is a matter of technique.",
             'image_url': 'img/limfa.jpg'
         },
         # Types of facial massagers
         'Mechanical': {
-            'text': 'Text',
+            'text': "These massagers work based on the principle of mechanical stimulation of different layers of the skin. " \
+                    "The stimulation can be in the form of pressure, rolling, tapping, vibration, or their combinations. They " \
+                    "are usually handheld massagers made of various materials such as wood, silicone, glass, or jade.",
             'image_url': 'image_url'
         },
         'Vacuum': {
-            'text': 'Text',
+            'text': "These massagers are used to combat age-related skin changes like wrinkles, loss of tone, and sagging, as " \
+                    "well as for deep cleansing. Vacuum attachments are used for cleaning the facial skin, helping to remove " \
+                    "deep-seated impurities and blackheads. In a way, vacuum devices are more focused on cleansing.\n" \
+                    "However, they also provide stimulating, toning, and anti-aging effects on the skin.\n\n" \
+                    "Blood circulation and lymphatic flow are accelerated, metabolism and cellular exchange within " \
+                    "the inner layers of the skin are increased. The skin regains its elasticity and smoothness.\n" \
+                    "Cell regeneration is accelerated, leading to faster healing of post-acne marks and pigmentation," \
+                    "and active production of collagen begins.\n\n" \
+                    "Many models of vacuum massagers come with multiple attachments that can be used not only on the " \
+                    "face but also on the body. After each use, it is necessary to thoroughly clean the attachments since they " \
+                    "can retain the contents of the pores.",
             'image_url': 'image_url'
         },
         'Ultrasonic': {
-            'text': 'Text',
+            'text': "The operation of ultrasonic massagers is based on the application of ultrasonic waves to the upper " \
+                    "layers of the skin. Massaging with such a device allows for:\n\n" \
+                    "To clean the skin more thoroughly and deeply from impurities, sebum, and remove dead " \
+                    "epidermal cells, and to tighten pores;\n" \
+                    "To maximize the penetration of beneficial substances from cosmetic products into the deeper " \
+                    "layers of the skin;\n" \
+                    "To prolong the effect of the procedure by creating a reserve of beneficial substances in the skin " \
+                    "layers.\n\n" \
+                    "Ultrasound, like vacuum, also cleanses the skin. But in addition to that, during the procedures, its tone is " \
+                    "increased, unevenness is smoothed out, and collagen production occurs, which makes the skin firmer and more elastic.",
             'image_url': 'image_url'
         },
         'Multifunctional': {
-            'text': 'Text',
+            'text': "Nowadays, many massagers combine multiple types of treatment. For example, mechanical, infrared, " \
+                    "and microcurrent. This helps achieve long-lasting results and makes skincare procedures more " \
+                    "convenient.\n\n" \
+                    "Vibrational massage: Improves blood circulation, metabolism, and has a draining effect.\n" \
+                    "Electrostimulation (EMS): Strengthens facial muscles through short-pulsed electrical currents. The " \
+                    "muscles contract, simulating movements, which tightens them, while overly tense muscles relax.\n" \
+                    "Microcurrents: As mentioned earlier, this mode restores all layers of the skin and activates metabolic " \
+                    "processes.\n" \
+                    "Chromotherapy: Works with different colored light rays: red (promotes the formation of new collagen, " \
+                    "accelerates regeneration), yellow (draining effect, detoxification), violet (antibacterial and soothing " \
+                    "effect).\n" \
+                    "Infrared or RF-lifting: Based on heating the skin with infrared radiation. It stimulates facial muscles and " \
+                    "improves blood circulation. As a result, the skin becomes smoother, firmer, and wrinkles are reduced. " \
+                    "Infrared massage is also used for quick healing in various injuries.",
+            'image_url': 'image_url'
+        },
+        'Microcurrent': {
+            'text': "Microcurrent massage is most commonly used in skincare for visible signs of aging. The principle of " \
+                    "operation of a microcurrent massager is based on stimulating skin cells with electrical impulses of " \
+                    "varying intensity (depending on the issue). Microcurrent therapy involves the use of low-frequency " \
+                    "currents to:\n\n" \
+                    "It restores all layers of the skin.\n" \
+                    "It normalizes microcirculation of blood and lymphatic flow.\n" \
+                    "It relaxes the facial mimic muscles.\n" \
+                    "It enhances lymphatic flow and blood supply.\n" \
+                    "It improves metabolic processes in skin cells.\n\n" \
+                    "All of this helps to address issues such as pigmentation spots, acne scars, acne breakouts, wrinkle " \
+                    "correction, facial contouring, restoring skin elasticity and firmness, reducing swelling and sagging. As a " \
+                    "result of microcurrent stimulation, the production of collagen and elastin is enhanced, which reduces " \
+                    "the depth of wrinkles, restores skin elasticity and tone, rejuvenating it from within.\n\n" \
+                    "Microcurrents also promote better penetration of cosmetic products into the deeper layers of the skin, stimulate metabolism, and tone the muscles.",
             'image_url': 'image_url'
         },
 
@@ -519,5 +617,3 @@ messages = {
 
     }
 }
-
-print(messages)
