@@ -381,67 +381,67 @@ messages = {
             'text': "Lymphatic drainage massage can be easily learned and performed at home, the main thing is to " \
                     "understand the principle and memorize the location of just a few points. So, the goal of this massage is " \
                     "to propel fluid through the lymphatic channels towards the lymph nodes.\n\n" \
-                    "We are interested in 4 paired points:\n" \
-                    "1. Underarms\n" \
-                    "2. Hollows above the collarbones\n" \
-                    "3. Points under the jaw angle (usually palpated by a doctor during an examination, you are familiar " \
+                    "<b><u>We are interested in 4 paired points:</u></b>\n" \
+                    "&#49;&#65039;&#8419; Underarms\n" \
+                    "&#50;&#65039;&#8419; Hollows above the collarbones\n" \
+                    "&#51;&#65039;&#8419; Points under the jaw angle (usually palpated by a doctor during an examination, you are familiar " \
                     "with them since childhood)\n" \
-                    "4. Points near the ears\n\n" \
-                    "Please note that pressing on lymph nodes and compressing them is not allowed!\n\n" \
-                    "The massage is divided into two stages: activation of points and fluid drainage.\n" \
-                    "Activation:\n" \
-                    "Underarms: Cross your hands over your chest, placing your fingers under your armpits, and " \
+                    "&#52;&#65039;&#8419; Points near the ears\n\n" \
+                    "<b><u>Please note that pressing on lymph nodes and compressing them is not allowed!</u></b>\n\n" \
+                    "The massage is divided into two stages: activation of points and fluid drainage.\n\n" \
+                    "<b><u>Activation:</u></b>\n\n" \
+                    "<b><u>Underarms:</u></b> Cross your hands over your chest, placing your fingers under your armpits, and " \
                     "perform five gentle squeezing movements with your fingers.\n" \
-                    "Clavicles: Position your fingers in the hollows above the collarbones, take a few breaths, " \
+                    "<b><u>Clavicles:</u></b> Position your fingers in the hollows above the collarbones, take a few breaths, " \
                     "applying light pressure with your fingers on the exhale.\n" \
-                    "Submandibular glands: Perform a few very gentle pressing movements on the exhale.\n" \
+                    "<b><u>Submandibular glands:</u></b> Perform a few very gentle pressing movements on the exhale.\n" \
                     "In front of the ear: Stroke the area in front of the ear from top to bottom.\n" \
-                    "Neck: To open the main channel, stroke the sides of the neck towards the collarbones.\n\n" \
-                    "Massage\n\n" \
+                    "<b><u>Neck:</u></b> To open the main channel, stroke the sides of the neck towards the collarbones.\n\n" \
+                    "<b><u>Massage</u></b>\n\n" \
                     "So, the points are activated, you can proceed with the massage.\n\n" \
-                    "1. Start the massage from the center of the chin, directing the fluid towards the lymph nodes " \
+                    "&#49;&#65039;&#8419; Start the massage from the center of the chin, directing the fluid towards the lymph nodes " \
                     "under the jaw, then downwards through the neck to the clavicles and further to the armpits.\n" \
-                    "2. Move upward towards the center of the upper lip. Continue moving towards our points through " \
+                    "&#50;&#65039;&#8419; Move upward towards the center of the upper lip. Continue moving towards our points through " \
                     "the cheeks, under the jaw, through the neck to the clavicles, and downwards to the armpits. At " \
                     "this stage, the pattern of the massage and its principle should be clear. Move upward.\n" \
-                    "3. Points near the nostrils. Move downward through the cheeks and points under the jaw, through " \
+                    "&#51;&#65039;&#8419; Points near the nostrils. Move downward through the cheeks and points under the jaw, through " \
                     "the neck to the clavicles, and downwards to the armpits.\n" \
-                    "4. At this point, the points near the ear are involved. Place the fingertips at the inner corners of the " \
+                    "&#52;&#65039;&#8419; At this point, the points near the ear are involved. Place the fingertips at the inner corners of the " \
                     "eyes, move towards the points near the ear, downward through the tear trough. Then follow " \
                     "the established path: towards the jaw, clavicles, and armpits.\n" \
-                    "5. Start from the point between the eyebrows, follow the eyebrow line, and move downward " \
+                    "&#53;&#65039;&#8419; Start from the point between the eyebrows, follow the eyebrow line, and move downward " \
                     "using the same path as in the previous steps.\n" \
-                    "6. From the center of the forehead to the sides, then downwards: ear - jaw - clavicles - armpits.\n\n" \
+                    "&#54;&#65039;&#8419; From the center of the forehead to the sides, then downwards: ear - jaw - clavicles - armpits.\n\n" \
                     "It may seem complicated in words, but once you perform this massage following the instructions, you " \
                     "will remember it forever. How often can you do this massage? Since it is simple and safe, you can do it " \
-                    "every day, two to three times a week, or use it as an SOS remedy to quickly &qout;relieve&qout; your face. The " \
+                    "every day, two to three times a week, or use it as an SOS remedy to quickly &quot;relieve&quot; your face. The " \
                     "main thing is to understand the principle; the rest is a matter of technique.",
             'image_url': 'img/limfa.jpg'
         },
         'Mistakes': {
-            'text': "1. You are doing the massage in the morning. It is better to perform the procedure in the evening, after applying night cream and going to bed. "
+            'text': "&#49;&#65039;&#8419; You are doing the massage in the morning. It is better to perform the procedure in the evening, after applying night cream and going to bed. "
                     "It is not advisable to apply makeup or expose your skin to the sun immediately after an intense massage. Active processes occur in the skin that can lead to pigmentation " \
-                    "and other problems.\n2. You are not cleansing your face sufficiently. It is necessary to remove not only dirt but also all traces of makeup. Using just a cleansing " \
-                    "milk is not enough. It is recommended to treat oily skin with a light peel or scrub before the massage.\n3. You are using unsuitable products. Dry skin should not be " \
+                    "and other problems.\n&#50;&#65039;&#8419; You are not cleansing your face sufficiently. It is necessary to remove not only dirt but also all traces of makeup. Using just a cleansing " \
+                    "milk is not enough. It is recommended to treat oily skin with a light peel or scrub before the massage.\n&#51;&#65039;&#8419; You are using unsuitable products. Dry skin should not be " \
                     "massaged with a light, quickly absorbing cream, while oily skin should be massaged with a rich oil. The consistency should be adjusted according to the oiliness " \
-                    "of the skin.\n4. Your movements are chaotic. Before starting the facial massage, carefully study videos or images depicting the massage lines. You should only " \
-                    "move along those lines, starting from the bottom (from the neck or chin to the forehead).\n5. You are not following the recommended duration of the procedure. " \
+                    "of the skin.\n&#52;&#65039;&#8419; Your movements are chaotic. Before starting the facial massage, carefully study videos or images depicting the massage lines. You should only " \
+                    "move along those lines, starting from the bottom (from the neck or chin to the forehead).\n&#53;&#65039;&#8419; You are not following the recommended duration of the procedure. " \
                     "A home massage should be done for about 10 minutes. If the procedure is too short or, on the contrary, too long, it can lead to a lack of effect or the appearance " \
-                    "of new wrinkles.\n6. You underestimate skincare. Massage alone is not enough to restore skin elasticity. It is necessary to use toners, creams, serums, emulsions " \
+                    "of new wrinkles.\n&#54;&#65039;&#8419; You underestimate skincare. Massage alone is not enough to restore skin elasticity. It is necessary to use toners, creams, serums, emulsions " \
                     "suitable for your skin type daily, and apply a nourishing mask once a week. Don't forget about the skin around the eyes. It should be nourished and moisturized in " \
-                    "the morning and evening using a specialized eye cream or gel.\n7. You forget about the mirror. Self-massage should only be done in front of a mirror. This way, you " \
+                    "the morning and evening using a specialized eye cream or gel.\n&#55;&#65039;&#8419; You forget about the mirror. Self-massage should only be done in front of a mirror. This way, you " \
                     "can control the pressure and intensity of the movements, and observe the skin's reaction. Without a mirror, it is difficult to assess how strongly and synchronously " \
-                    "you are massaging your face.\n8. You forget about posture. In a salon, facial massage is done in a lying position. If you choose self-massage, it is better to " \
+                    "you are massaging your face.\n&#56;&#65039;&#8419; You forget about posture. In a salon, facial massage is done in a lying position. If you choose self-massage, it is better to " \
                     "perform it standing or sitting, but with a straight back. Improper posture can cause excessive tension or sagging of the facial skin, making the massage procedure " \
-                    "more challenging.\n9. Consistency. If you only perform massage from time to time, you won't see noticeable results.",
+                    "more challenging.\n&#57;&#65039;&#8419; Consistency. If you only perform massage from time to time, you won't see noticeable results.",
             'image_url': 'img/oshibki.jpg'
         },
         'Contraindications': {
-            'text': "First of all, local problems are a contraindication:\nPurulent acne\nRosacea (&quot;rosy acne&quot; caused by chronically dilated capillaries)" \
-                    "\nSkin integrity disruption: wounds, scratches, burns, bites\nViral skin infections: herpes, eczema, viral warts, etc.\nProminent spider veins, fragile blood " \
-                    "vessels, and other vascular disorders\nMalignant tumors\nEndocrine system disorders\nPsoriasis\n\n" \
-                    "Also, one should take into account the overall health condition. Massage is contraindicated in cases of high body temperature, elevated blood pressure, " \
-                    "exacerbation of chronic diseases, cancer, active inflammatory processes in the body, and blood disorders.",
+            'text': "<b><u>First of all, local problems are a contraindication:</u></b>\n\n&#128681; Purulent acne\n&#128681; Rosacea (&quot;rosy acne&quot; caused by chronically dilated capillaries)" \
+                    "\n&#128681; Skin integrity disruption: wounds, scratches, burns, bites\n&#128681; Viral skin infections: herpes, eczema, viral warts, etc.\n&#128681; Prominent spider veins, fragile blood " \
+                    "vessels, and other vascular disorders\n&#128681; Malignant tumors\n&#128681; Endocrine system disorders\n&#128681; Psoriasis\n\n" \
+                    "Also, one should take into account the overall health condition. Massage is contraindicated in cases of high <u>body temperature</u>, elevated <u>blood pressure</u>, " \
+                    "exacerbation of <u>chronic diseases</u>, <u>cancer</u>, active <u>inflammatory processes</u> in the body, and <u>blood disorders</u>.",
             'image_url': 'img/protivopokazania.jpg'
         },
         # Types of facial massagers
@@ -482,15 +482,15 @@ messages = {
             'text': "Nowadays, many massagers combine multiple types of treatment. For example, mechanical, infrared, " \
                     "and microcurrent. This helps achieve long-lasting results and makes skincare procedures more " \
                     "convenient.\n\n" \
-                    "Vibrational massage: Improves blood circulation, metabolism, and has a draining effect.\n" \
-                    "Electrostimulation (EMS): Strengthens facial muscles through short-pulsed electrical currents. The " \
+                    "<u>Vibrational massage</u>: Improves blood circulation, metabolism, and has a draining effect.\n" \
+                    "<u>Electrostimulation (EMS)</u>: Strengthens facial muscles through short-pulsed electrical currents. The " \
                     "muscles contract, simulating movements, which tightens them, while overly tense muscles relax.\n" \
-                    "Microcurrents: As mentioned earlier, this mode restores all layers of the skin and activates metabolic " \
+                    "<u>Microcurrents</u>: As mentioned earlier, this mode restores all layers of the skin and activates metabolic " \
                     "processes.\n" \
-                    "Chromotherapy: Works with different colored light rays: red (promotes the formation of new collagen, " \
+                    "<u>Chromotherapy</u>: Works with different colored light rays: red (promotes the formation of new collagen, " \
                     "accelerates regeneration), yellow (draining effect, detoxification), violet (antibacterial and soothing " \
                     "effect).\n" \
-                    "Infrared or RF-lifting: Based on heating the skin with infrared radiation. It stimulates facial muscles and " \
+                    "<u>Infrared or RF-lifting</u>: Based on heating the skin with infrared radiation. It stimulates facial muscles and " \
                     "improves blood circulation. As a result, the skin becomes smoother, firmer, and wrinkles are reduced. " \
                     "Infrared massage is also used for quick healing in various injuries.",
             'image_url': 'img/mnogofunk.jpg'
@@ -500,11 +500,11 @@ messages = {
                     "operation of a microcurrent massager is based on stimulating skin cells with electrical impulses of " \
                     "varying intensity (depending on the issue). Microcurrent therapy involves the use of low-frequency " \
                     "currents to:\n\n" \
-                    "It restores all layers of the skin.\n" \
-                    "It normalizes microcirculation of blood and lymphatic flow.\n" \
-                    "It relaxes the facial mimic muscles.\n" \
-                    "It enhances lymphatic flow and blood supply.\n" \
-                    "It improves metabolic processes in skin cells.\n\n" \
+                    "&#9989; It restores all layers of the skin.\n" \
+                    "&#9989; It normalizes microcirculation of blood and lymphatic flow.\n" \
+                    "&#9989; It relaxes the facial mimic muscles.\n" \
+                    "&#9989; It enhances lymphatic flow and blood supply.\n" \
+                    "&#9989; It improves metabolic processes in skin cells.\n\n" \
                     "All of this helps to address issues such as pigmentation spots, acne scars, acne breakouts, wrinkle " \
                     "correction, facial contouring, restoring skin elasticity and firmness, reducing swelling and sagging. As a " \
                     "result of microcurrent stimulation, the production of collagen and elastin is enhanced, which reduces " \
@@ -515,46 +515,69 @@ messages = {
 
         # -- NUTRITION --
         'Vitamins and Micronutrients': {
-            'text': 'Text',
+            'text': "<b>PROTEIN.</b> The main building material: amino acids are necessary for the synthesis of collagen fibers, " \
+                    "which are responsible for skin elasticity.\n\n" \
+                    "<b>OMEGA-3 AND OMEGA-6 FATTY ACIDS.</b> Essential for lipid synthesis, they possess pronounced antiinflammatory properties and slow down the aging process.\n\n" \
+                    "<b>DIETARY FIBER.</b> A natural sorbent: absorbs and eliminates toxic substances (nitrates, pesticides, heavy " \
+                    "metal salts).\n\n" \
+                    "<b>MELANIN.</b> Responsible for pigmentation.\n\n" \
+                    "<b>HEMOGLOBIN.</b> Enriches cells with oxygen.\n\n" \
+                    "<b>BETA-CAROTENE.</b> Natural antioxidant that protects against premature aging and evens out skin tone.\n\n" \
+                    "<b>VITAMIN A (RETINOL).</b> Participates in collagen synthesis and improves skin elasticity.\n\n" \
+                    "<b>B-VITAMINS.</b> Necessary for normalizing metabolic processes in the skin, particularly lipid and protein " \
+                    "metabolism.\n\n" \
+                    "<b>VITAMIN C.</b> One of the main antioxidants that participates in collagen synthesis.\n\n" \
+                    "<b>VITAMIN E.</b> Prevents the formation of wrinkles and combats dryness.\n\n" \
+                    "<b>VITAMIN H (BIOTIN).</b> A natural vasodilator component that helps make dull skin healthy and radiant.\n\n" \
+                    "<b>ZINC.</b> Possesses anti-inflammatory properties and regulates sebaceous gland function.\n\n" \
+                    "<b>CALCIUM.</b> Participates in the synthesis of structural elements of the skin.",
             'image_url': 'img/vitamins.jpg'
         },
         'Healthy products': {
-            'text': "text",
+            'text': "<u>Here is a list of products needed to improve the condition of the skin:</u>\n\n" \
+                    "&#49;&#65039;&#8419; Nuts are a rich source of omega-3 fatty acids, melanin, and vitamins B and E. Consuming a small " \
+                    "portion per day is sufficient.\n" \
+                    "&#50;&#65039;&#8419; Whole grain cereals, pasta made from durum wheat, brown unpolished rice, whole wheat " \
+                    "bread, and bran bread are the primary sources of dietary fiber and vitamin B.\n" \
+                    "&#51;&#65039;&#8419; Fish and seafood provide the body with protein, melanin, zinc, vitamin B, and omega-3 fatty " \
+                    "acids.\n" \
+                    "&#52;&#65039;&#8419; Lean meats and beef or pork liver are also rich in protein, as well as iron, vitamins A and B.\n" \
+                    "&#53;&#65039;&#8419; Dairy products (including cheese and cottage cheese) are known for their calcium content and " \
+                    "beneficial protein.",
             'image_url': 'img/healthy_food.jpg'
         },
         'Unhealthy products': {
             'text': "If you want to get rid of pimples, dryness, and other skin problems, limit the consumption of these products:\n\n" \
-                    "&#49;Sweet. Recent studies have shown that high glycemic index foods (such as white bread, pastries, sugar, sweet sodas)\n worsen acne symptoms and contribute to glycation, which is the bonding of collagen fibers and premature skin aging.\n" \
-                    "&#50;Salty. Salt retains water, so excessive consumption of various marinades and canned foods can lead to under-eye puffiness and more.\n" \
-                    "&#51;Fast food and processed foods. Processed meats can contain excessive amounts of sodium, which also leads to water retention, swelling, and puffiness.\n Additionally, fatty and fried foods disrupt liver function and contribute to premature aging. \nTo mitigate the negative effects of fast food, incorporate onions, ginger, turmeric into your diet, take vitamin E and zinc, or better yet, simply avoid unhealthy food altogether.\n" \
-                    "&#52;Coffee. While moderate amounts of coffee act as an antioxidant, excessive consumption (more than four cups a day) is likely to cause restlessness and sleep problems. \nA lack of quality sleep affects your appearance as cell renewal occurs during this time. \nThe result of sleep deprivation is tired, dull, dry, and wrinkle-prone skin. But that's not all yet.\n" \
-                    "IMPORTANT: For individuals with slow metabolism, coffee can stimulate the activity of sebaceous glands, which in turn can lead to the formation of comedones and pimples.\n\n" \
-                    "<b><u>Alcohol</u></b>\n\n" \
-                    "Excessive alcohol consumption leads to dehydration of the body as a whole, including the skin. The reason is that alcohol has a pronounced diuretic effect.",
+                    "&#128078; Sweet. Recent studies have shown that high glycemic index foods (such as white bread, pastries, sugar, sweet sodas)\n worsen acne symptoms and contribute to glycation, which is the bonding of collagen fibers and premature skin aging.\n" \
+                    "&#128078; Salty. Salt retains water, so excessive consumption of various marinades and canned foods can lead to under-eye puffiness and more.\n" \
+                    "&#128078; Fast food and processed foods. Processed meats can contain excessive amounts of sodium, which also leads to water retention, swelling, and puffiness.\n Additionally, fatty and fried foods disrupt liver function and contribute to premature aging. \nTo mitigate the negative effects of fast food, incorporate onions, ginger, turmeric into your diet, take vitamin E and zinc, or better yet, simply avoid unhealthy food altogether.\n" \
+                    "&#128078; Coffee. While moderate amounts of coffee act as an antioxidant, excessive consumption (more than four cups a day) is likely to cause restlessness and sleep problems. \nA lack of quality sleep affects your appearance as cell renewal occurs during this time. \nThe result of sleep deprivation is tired, dull, dry, and wrinkle-prone skin. But that's not all yet.\n" \
+                    "IMPORTANT&#10071; For individuals with slow metabolism, coffee can stimulate the activity of sebaceous glands, which in turn can lead to the formation of comedones and pimples.\n\n" \
+                    "&#128078; Alcohol. Excessive alcohol consumption leads to dehydration of the body as a whole, including the skin. The reason is that alcohol has a pronounced diuretic effect.",
             'image_url': 'img/junk_food.jpg'
         },
         'Drinking regime': {
             'text': "Hydration is crucial for the body. Water helps restore the skin that has been damaged by the sun, wind, and dry indoor air from heating systems, returning " \
                     "smoothness and elasticity while preventing flaking. To optimize metabolic processes in the body, doctors recommend daily consumption of 1.5 to 2 liters of " \
-                    "water (approximately 30 ml per kilogram of body weight).\n\nIMPORTANT: It is specifically about pure non-carbonated water. Tea, coffee, juices, and fruit drinks do " \
+                    "water (approximately 30 ml per kilogram of body weight).\n\nIMPORTANT&#10071; It is specifically about pure non-carbonated water. Tea, coffee, juices, and fruit drinks do " \
                     "not count toward this water intake.\n\nDistribute your total fluid intake throughout the day and avoid drinking water after 7:00 PM to prevent the formation of " \
                     "edema. To remind yourself to drink more often, keep water bottles on your desk, bedside table, in the car, and so on.",
             'image_url': 'img/pitevoy_rezhimjpg.jpg'
         },
         'Dietary rules for healthy skin': {
             'text': "Analyzing the obtained information allows us to establish a nutrition system.\n\n" \
-                    "&#49;The diet should be diverse and balanced in terms of the quantity of proteins, fats,carbohydrates, vitamins, and minerals.\n" \
-                    "&#50;It is better to consume food 5-6 times a day in small portions. Do not forget about breakfast and try to have dinner no later than three to " \
+                    "&#9989; The diet should be diverse and balanced in terms of the quantity of proteins, fats,carbohydrates, vitamins, and minerals.\n" \
+                    "&#9989; It is better to consume food 5-6 times a day in small portions. Do not forget about breakfast and try to have dinner no later than three to " \
                     "four hours before bedtime.\n" \
-                    "&#51;For breakfast and lunch, consume protein-rich foods, while in the evening, give preference to cooked vegetables, grains, and dairy products.\n" \
-                    "&#52;Drink an adequate amount of water.\n" \
-                    "&#53;Exclude harmful food from your diet.",
+                    "&#9989; For breakfast and lunch, consume protein-rich foods, while in the evening, give preference to cooked vegetables, grains, and dairy products.\n" \
+                    "&#9989; Drink an adequate amount of water.\n" \
+                    "&#9989; Exclude harmful food from your diet.",
             'image_url': 'img/healthy_food.jpg'
         },
 
         # -- SLEEP --
         'How much sleep do you need?': {
-            'text': "Experts differ on the duration of sleep but agree on an average number. An 8-hour rest is considered adequate and helps the body produce immune-competent cells " \
+            'text': "Experts differ on the duration of sleep but agree on an average number. An <u>8-hour</u> rest is considered adequate and helps the body produce immune-competent cells " \
                     "crucial in fighting viruses.\n\n" \
                     "Melatonin, one of the key hormones responsible for sleep quality and depth, is synthesized by the human body only in complete darkness. Insufficient levels of " \
                     "this hormone lead to premature aging, excess weight, as well as cardiovascular diseases and even oncology.\n\n" \
@@ -574,43 +597,43 @@ messages = {
             'image_url': 'img/sleep_skin.jpg'
         },
         'How can you restore the skin after insomnia?': {
-            'text': "&#49;The first stage of preparing for sleep is cleansing. Avoid washing your face with soap that has a high pH level. Choose high-quality gentle " \
+            'text': "&#49;&#65039;&#8419; The first stage of preparing for sleep is cleansing. Avoid washing your face with soap that has a high pH level. Choose high-quality gentle " \
                     "cleansing cosmetic products, such as a toning facial foam suitable for your skin type.\n" \
-                    "&#50;The second stage is exfoliation. Choose peels and avoid scrubs. Unlike mechanical scrubbing, a gentle acid peel before bedtime helps the facial skin renew " \
+                    "&#50;&#65039;&#8419; The second stage is exfoliation. Choose peels and avoid scrubs. Unlike mechanical scrubbing, a gentle acid peel before bedtime helps the facial skin renew " \
                     "itself without causing damage. However, even peels should not be used too frequently or thoughtlessly. Choose a product suitable for your skin type, remember to " \
                     "use SPF before going out in the sun, and follow a proper procedure schedule – once a week is sufficient.\n" \
-                    "&#51;The third stage is nourishment. After exfoliation, the skin is not only renewed but also irritated, so it needs to be soothed. Serums and emulsions not only " \
+                    "&#51;&#65039;&#8419; The third stage is nourishment. After exfoliation, the skin is not only renewed but also irritated, so it needs to be soothed. Serums and emulsions not only " \
                     "alleviate irritation but also provide the skin with beneficial components.\n" \
-                    "&#52;The fourth stage is moisturization. Night cream or a night mask helps the skin recover and eliminate the consequences of daily stress. Only with an adequate " \
+                    "&#52;&#65039;&#8419; The fourth stage is moisturization. Night cream or a night mask helps the skin recover and eliminate the consequences of daily stress. Only with an adequate " \
                     "level of moisture can the skin cells function at their full capacity.\n" \
-                    "&#53;The fifth stage is sleep. As mentioned before, for the proper production of melatonin, it is necessary to sleep in complete darkness to prevent light from " \
+                    "&#53;&#65039;&#8419; The fifth stage is sleep. As mentioned before, for the proper production of melatonin, it is necessary to sleep in complete darkness to prevent light from " \
                     "reaching the eyes' retina. If this is not possible, try using sleep masks. Even flickering gadget lights can interfere with the production of melatonin, " \
                     "disrupting our biological clocks.",
             'image_url': 'img/posle_bessonici.jpg'
         },
         'What to eat to sleep well?': {
-            'text': "&#49;<b><u>Magnesium</u></b> is necessary for promoting normal sleep as it has a pronounced anti-inflammatory effect. Additionally, it helps reduce cortisol levels " \
+            'text': "&#49;&#65039;&#8419; <b><u>Magnesium</u></b> is necessary for promoting normal sleep as it has a pronounced anti-inflammatory effect. Additionally, it helps reduce cortisol levels " \
                     "in the body. It has been proven that this stress hormone negatively affects sleep. Magnesium is found in green leafy vegetables such as spinach and asparagus, wheat " \
                     "bran and beans, pumpkin seeds, and various nuts, including almonds. Scientists have found that almonds help improve sleep quality due to their high content of " \
                     "magnesium and melatonin.\n" \
-                    "&#50;<b><u>Tryptophan</u></b>. As we have already discovered, the hormone melatonin is involved in the processof falling asleep and throughout the stages of sleep. " \
+                    "&#50;&#65039;&#8419; <b><u>Tryptophan</u></b>. As we have already discovered, the hormone melatonin is involved in the processof falling asleep and throughout the stages of sleep. " \
                     "However, for melatonin to be activated, thebody needs an adequate amount of the amino acid tryptophan. Tryptophan is found in proteinrich foods such as poultry, eggs, " \
                     "legumes, nuts, and cottage cheese. Turkey contains a highconcentration of tryptophan. Therefore, consuming a small portion of turkey in the evening canhelp reduce " \
                     "frequent awakenings during the night.\n" \
-                    "&#51;<b><u>Vitamin D</u></b>. Some foods such as herring, salmon, tuna, and milk contain this vitamin, but in small amounts. Fatty fish provides a unique " \
+                    "&#51;&#65039;&#8419; <b><u>Vitamin D</u></b>. Some foods such as herring, salmon, tuna, and milk contain this vitamin, but in small amounts. Fatty fish provides a unique " \
                     "combination of Omega-3 fatty acids and vitamin D, making it an excellent remedy for combating insomnia.\n" \
-                    "&#52;<b><u>Apigenin</u></b>. This antioxidant is associated with brain receptors and helps prepare the brain for rest. Chamomile tea contains a high " \
+                    "&#52;&#65039;&#8419; <b><u>Apigenin</u></b>. This antioxidant is associated with brain receptors and helps prepare the brain for rest. Chamomile tea contains a high " \
                     "concentration of apigenin.\n" \
-                    "&#53;<b><u>Serotonin</u></b>. Research has shown that substances that promote serotonin production help thebrain regulate sleep cycles better. For example, consuming " \
+                    "&#53;&#65039;&#8419; <b><u>Serotonin</u></b>. Research has shown that substances that promote serotonin production help thebrain regulate sleep cycles better. For example, consuming " \
                     "kiwi in the evening significantlyimproves sleep quality.",
             'image_url': 'img/krepkii_son.jpg'
         },
         'The rules of "Good night"': {
-            'text': "1. Many elements need a helper - insulin. And insulin, in turn, is produced in response to &quot;slow&quot; carbohydrates. Choose foods that are rich in proteins " \
-                    "and slow carbohydrates.\n2. Consume fast carbohydrates only for breakfast and lunch. Firstly, sources of quick energy disrupt sleep, and secondly, they have a " \
-                    "negative impact on the skin and can cause weight gain.\n3. Avoid going to bed on an empty stomach, but also avoid overeating. It is perfectly normal to have a " \
-                    "light dinner about 2 hours before going to bed. This way, you won't feel heavy or hungry.\n4. Foods high in fiber are beneficial for the body during sleep. " \
-                    "Foods containing dietary fiber increase the phases of deep sleep, allowing us to get better rest.\n5. Coffee, black tea, and green tea are taboo before sleep. " \
+            'text': "&#128564; Many elements need a helper - insulin. And insulin, in turn, is produced in response to &quot;slow&quot; carbohydrates. Choose foods that are rich in proteins " \
+                    "and slow carbohydrates.\n&#128564; Consume fast carbohydrates only for breakfast and lunch. Firstly, sources of quick energy disrupt sleep, and secondly, they have a " \
+                    "negative impact on the skin and can cause weight gain.\n&#128564; Avoid going to bed on an empty stomach, but also avoid overeating. It is perfectly normal to have a " \
+                    "light dinner about 2 hours before going to bed. This way, you won't feel heavy or hungry.\n&#128564; Foods high in fiber are beneficial for the body during sleep. " \
+                    "Foods containing dietary fiber increase the phases of deep sleep, allowing us to get better rest.\n&#128564; Coffee, black tea, and green tea are taboo before sleep. " \
                     "The effects of caffeine last an average of 6 hours, so it's best to avoid consuming caffeinated beverages after 5:00 PM. Instead, opt for chamomile tea or chicory.",
             'image_url': 'img/dobroi_nochi.jpg'
         }
