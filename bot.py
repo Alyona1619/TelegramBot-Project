@@ -11,20 +11,6 @@ D = Database(integrations_token=token)
 D.retrieve_database(db_id, get_properties=True)
 properties_list = D.properties_list
 
-bot = telebot.TeleBot('6211233672:AAGLlrz8Wt3BzUag1GYb930PFe7-vVnVtP0')
-user_data = {}
-menu1 = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-btn1 = types.KeyboardButton("Домашний массаж")
-menu1.row(btn1)
-btn2 = types.KeyboardButton("Питание")
-menu1.row(btn2)
-btn3 = types.KeyboardButton("Сон")
-menu1.row(btn3)
-btn4 = types.KeyboardButton("Дневник полезных привычек")
-menu1.row(btn4)
-back = types.KeyboardButton("Вернуться в главное меню")
-menu1.row(back)
-
 name = ''
 memories = ''
 evaluation = ''
@@ -35,51 +21,65 @@ drink=False
 care=False
 step=False
 
+bot = telebot.TeleBot('6211233672:AAGLlrz8Wt3BzUag1GYb930PFe7-vVnVtP0')
+user_data = {}
+menu1 = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+btn1 = types.KeyboardButton("Homemade facial massage")
+menu1.row(btn1)
+btn2 = types.KeyboardButton("Healthy eating")
+menu1.row(btn2)
+btn3 = types.KeyboardButton("Healthy sleep")
+menu1.row(btn3)
+btn4 = types.KeyboardButton("Diary of healthy habits")
+menu1.row(btn4)
+back = types.KeyboardButton("Go back to the main menu")
+menu1.row(back)
+
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    btn1 = types.KeyboardButton("👋 Поздороваться")
-    btn2 = types.KeyboardButton("Что ты можешь?")
+    btn1 = types.KeyboardButton("Say hello")
+    btn2 = types.KeyboardButton("What can you do?")
     markup.add(btn1, btn2)
     bot.send_message(message.chat.id,
-                     text="Привет! Я твой персональный бот для красоты".format(
+                     text="Hi! I am your personal bot that will help you maintain your natural beauty.".format(
                          message.from_user), reply_markup=markup)
 
 
 @bot.message_handler(content_types=['text', 'document', 'audio'])
 def func(message):
-    if message.text == "👋 Поздороваться":
-        bot.send_message(message.from_user.id, "Привет! Спроси меня, что я могу")
-    if message.text == "Что ты можешь?":
-        bot.send_message(message.chat.id, text="Выбери тему", reply_markup=menu1)
+    if message.text == "Say hello":
+        bot.send_message(message.from_user.id, "Hi! Ask me what I can do.")
+    if message.text == "What can you do?":
+        bot.send_message(message.chat.id, text="Choose a topic that interests you", reply_markup=menu1)
 
-    elif message.text == "Вернуться в главное меню":
+    elif message.text == "Go back to the main menu":
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-        button1 = types.KeyboardButton("👋 Поздороваться")
-        button2 = types.KeyboardButton("Что ты можешь?")
+        button1 = types.KeyboardButton("Say hello")
+        button2 = types.KeyboardButton("What can you do?")
         markup.add(button1, button2)
-        bot.send_message(message.from_user.id, text="Вы вернулись в главное меню", reply_markup=markup)
+        bot.send_message(message.from_user.id, text="You are back in the main menu", reply_markup=markup)
 
 
-    elif message.text == "Домашний массаж":
+    elif message.text == "Homemade facial massage":
         markup = types.InlineKeyboardMarkup()
-        button1 = types.InlineKeyboardButton(text="Подготовка к процедуре", callback_data="prepare")
+        button1 = types.InlineKeyboardButton(text="Preparation for the procedure", callback_data="prepare")
         markup.row(button1)
-        button2 = types.InlineKeyboardButton(text="Польза", callback_data="useful")
+        button2 = types.InlineKeyboardButton(text="The benefits of facial massage", callback_data="useful")
         markup.row(button2)
-        button3 = types.InlineKeyboardButton(text="Виды массажа", callback_data="various_mas")
+        button3 = types.InlineKeyboardButton(text="Types of massage", callback_data="various_mas")
         markup.row(button3)
-        button4 = types.InlineKeyboardButton(text="Массажеры для лица ", callback_data="equipment")
+        button4 = types.InlineKeyboardButton(text="Facial Massagers", callback_data="equipment")
         markup.row(button4)
-        back = types.InlineKeyboardButton(text="Назад", callback_data="back")
+        back = types.InlineKeyboardButton(text="", callback_data="back")
         markup.row(back)
         bot.send_message(message.from_user.id,
-                         "Что ты хочешь знать про массаж?".format(message.from_user),
+                         "What would you like to know about massage?".format(message.from_user),
                          reply_markup=markup)
 
-    elif message.text == "Питание":
+    elif message.text == "Healthy eating":
         markup = types.InlineKeyboardMarkup()
-        button1 = types.InlineKeyboardButton(text="Витамины и микроэлементы", callback_data="vitamins")
+        button1 = types.InlineKeyboardButton(text="Vitamins and trace elements", callback_data="vitamins")
         markup.row(button1)
         button2 = types.InlineKeyboardButton(text="Полезные продукты", callback_data="useful_products")
         markup.row(button2)
@@ -94,7 +94,7 @@ def func(message):
         bot.send_message(message.from_user.id,
                          "Что ты хочешь знать про питание?".format(message.from_user),
                          reply_markup=markup)
-    elif message.text == "Сон":
+    elif message.text == "Healthy sleep":
         markup = types.InlineKeyboardMarkup()
         button1 = types.InlineKeyboardButton(text="Сколько нужно спать?", callback_data="how_much")
         markup.row(button1)
@@ -111,7 +111,7 @@ def func(message):
                          reply_markup=markup)
 
 
-    elif message.text == "Дневник полезных привычек":
+    elif message.text == "Diary of healthy habits":
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         ask = types.KeyboardButton("Answer the questions")
         markup.add(ask)
@@ -128,9 +128,7 @@ def func(message):
         bot.send_message(message.from_user.id, "What is your name?", reply_markup=a)
         bot.register_next_step_handler(message, get_name)
 
-  
-
-    elif message.text != "👋 Поздороваться":
+    elif message.text != "Say hello":
         bot.send_message(message.chat.id, text="На такую комманду я не запрограммировал.../start")
 
 def get_name(message):
@@ -258,11 +256,76 @@ def fill_table(name, memories, sleep, eat, read, drink, care, step):
 @bot.callback_query_handler(func=lambda call: True)
 def callback_worker(call):
     if call.data == "prepare":
-        bot.send_message(call.message.chat.id, 'Далее про массаж')
+        bot.send_message(call.message.chat.id,
+                         "&#129524;<b>PREPARATION FOR THE PROCEDURE</b>&#129524;\n\n" \
+                         "Do not neglect the preparation. Otherwise, instead of firm skin, you may end up with pimples, blackheads, and various inflammations.\n\n" \
+                         "Before starting the procedure, you need to choose a massage product. If you have dry skin, coconut oil will be suitable; for oily skin, " \
+                         "it is better to use grape seed oil or a lightweight gel-cream. The texture of the product should not be too thick, but if it absorbs quickly, " \
+                         "you won't be able to perform a full massage. You will have to constantly apply the cream. Make sure the product does not clog pores.\n\n" \
+                         "<u><b>The preparatory procedures include several stages:</b></u>\n\n" \
+                         "&#9989;<b>Thorough cleansing.</b> First, remove makeup with a special product: milk or micellar water. Then, make sure to wash your face with" \
+                         "a foam or gel cleanser, pat your face dry with a towel, but do not rub it.\n" \
+                         "&#9989;<b>Warming up.</b> The skin will respond better to the massage with creams or oils if you warm it up before " \
+                         "the procedure. There is no need to steam your face; simply apply a warm towel and wait for 5 minutes.\n" \
+                         "&#9989;<b>Moisturizing.</b> Massage is performed only after applying the cream. If you pull on dry skin, wrinkles and " \
+                         "various damages may appear. Apply a lightweight cream or oil in a small amount along the massage lines." \
+                         ,parse_mode='HTML')
     elif call.data == "useful":
-        bot.send_message(call.message.chat.id, 'Далее про полезность')
+        bot.send_message(call.message.chat.id,
+                         "&#128171;<b>THE BENEFITS OF FACIAL MASSAGE</b>&#128171;\n\n" \
+                         "The exceptional aspect of self-facial massage is that it can restore the physiological processes that have been disrupted and led to facial aging.\n\n" \
+                         "<b><u>What exactly happened?</u></b>\n\n" \
+                         "&#49;&#65039;&#8419; Blood flow slowed down, making it difficult to deliver nutrients to the skin cells, and local metabolism was inhibited\n" \
+                         "&#50;&#65039;&#8419; Structural changes occurred in the skin: collagen, elastin, and lipids were produced in smaller quantities; " \
+                         "existing collagen fibers were damaged; due to a decrease in the ability of hyaluronic acid molecules to retain moisture, "
+                         "the dermis became less hydrated, and so on. All the essential characteristics of youthful skin declined: firmness, elasticity, " \
+                         "strength, smoothness, and turgor.\n" \
+                         "&#51;&#65039;&#8419; Let's dig deeper: the muscles. What happened to them? On the face and neck, they became tense due to overexertion, meaning they literally " \
+                         "became shorter, lost elasticity, and became unable to stretch to their natural length. What did these contracted muscles do to the skin, " \
+                         "which was already aging on its own? They pulled it into folds (wrinkles) and caused sagging(bulldog cheeks, vague jawline, drooping eyelids).\n" \
+                         "&#52;&#65039;&#8419; Additionally, lymphatic circulation has become impaired, resulting in stagnant toxins and metabolic waste accumulating on the face like dirty mud. " \
+                         "This leads to swelling, puffiness, loose skin, under-eye bags, increased wrinkles, and a downward shift of tissues.\n\n" \
+                         "<b>Now let's think about what to do for rejuvenation. Logic suggests the main task is to reverse theseprocesses. In other words, we must:</b> \n\n" \
+                         "&#9989; help accelerate blood circulation, improve cell nutrition\n" \
+                         "&#9989; restore lymphatic flow, alleviate stagnation and edema\n" \
+                         "&#9989; relax spasmodic muscles, elongate them to their natural size, and restore their elasticity\n" \
+                         "&#9989; strengthen the skin by stimulating the synthesis of collagen, elastin fibers, and hyaluronic acid making it firm, elastic, strong, and well-hydrated\n\n" \
+                         "Achieve all of this can only be done through self-massage. There are auxiliary methods (cosmetics, nutrition, hydration, overall physical activity, etc.), " \
+                         "but self-massage is the foundation.\n\n" \
+                         "<u><b>The results of a skillful anti-aging massage</b>:</u>\n\n" \
+                         "&#128900;Wrinkles, folds, creases, and nasolabial lines are smoothed\n" \
+                         "&#128900;The skin becomes firm and taut\n" \
+                         "&#128900;Edema, under-eye bags, and &quot;bulldog cheeks&quot; are reduced\n" \
+                         "&#128900;The jawline is lifted, and the &quot;youthful angle&quot; is well-defined without a double chin\n" \
+                         "&#128900;The gaze appears more open and refreshed\n" \
+                         "&#128900;The corners of the lips are lifted\n" \
+                         "&#128900;The nose appears more refined\n" \
+                         "&#128900;The complexion appears healthy and vibrant",
+                         parse_mode='HTML')
     elif call.data == "various_mas":
-        bot.send_message(call.message.chat.id, 'Далее про виды массажа')
+        bot.send_message(call.message.chat.id,
+                         "&#127800;<b>TYPES OF HOME FACIAL MASSAGE AND TECHNIQUES</b>&#127800;\n\n" \
+                         "<b><u>Classic Massage</u></b>\n\n" \
+                         "How to perform a facial massage? The most important thing is to master the technique. To do this, it is necessary to have a good " \
+                         "understanding of the massage lines and control the pressure of your fingers.\nThe technique of performing a classic facial massage " \
+                         "revolves around four main movements:\n&#9643;Rubbing\n&#9643;Stroking\n&#9643;Kneading\n&#9643;Vibration\n\n" \
+                         "All movements are performed in a specific sequence and do not involve strong pressure. Let's list the main stages of a classic facial massage.\n\n" \
+                         "&#9725;Usually, the massage starts from the chin (direction - from the lower point in the middle towards the earlobe).\n" \
+                         "&#9725;Then, the area around the mouth is worked on.\n" \
+                         "&#9725;The next stage is the cheeks.\n" \
+                         "&#9725;Then, the outer corners of the eyes are massaged.\n" \
+                         "&#9725;The T-zone is massaged in the direction from the nose towards the temples.\n" \
+                         "&#9725;The massage session concludes with a massage of the forehead.\n\n" \
+                         "The main movements in classical facial massage are stroking. Less time is dedicated to vibrations, " \
+                         "kneading, and tapping. Usually, the entire procedure takes no more than 30 minutes.\n" \
+                         "To feel the effects of a classical facial massage, sometimes just one session is enough. " \
+                         "The skin immediately becomes firmer and more toned. The complexion changes, and a radiant glow appears. " \
+                         "To maintain the achieved results, it is recommended to undergo a course of 8-10 sessions, once per week." \
+
+                         
+
+                         ,
+                         parse_mode='HTML')
     elif call.data == "equipment":
         bot.send_message(call.message.chat.id, 'Далее про инструменты')
     elif call.data == "vitamins":
