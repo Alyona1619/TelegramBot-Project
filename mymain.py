@@ -12,19 +12,7 @@ keyboard.add(telebot.types.KeyboardButton('Русский'), telebot.types.Keybo
 # Словарь для хранения выбранного языка пользователей
 user_language = {}
 
-all_topics = ['Подготовка к процедуре', 'Классический массаж', 'Пластический массаж', 'Лимфодренажный массаж',
-              'Польза массажа', 'Механические массажеры для лица', 'Вакуумные массажеры для лица', #4
-              'Ультразвуковые массажеры для лица', 'Микротоковые массажеры для лица', #7
-              'Многофункциональные массажеры для лица', 'Витамины и микроэлементы', 'Полезные продукты', 'Питьевой режим', #9
-              'Правила питания для здоровой кожи', 'Вредные продукты', 'Сколько нужно спать и почему вредно недосыпать?', #13
-              'Как сон влияет на гормоны и кожу?','Как восстановить кожу после бессонницы?', #16
-              'Что съесть, чтобы крепко спать?', 'Правила "Доброй ночи"', #18
-              'Preparation for the Procedure', 'Classic massage', 'Plastic massage', 'Lymphatic drainage massage',
-              'The benefits of facial massage', 'Mechanical', 'Vacuum', 'Ultrasonic', 'Multifunctional',
-              'Vitamins and Micronutrients', 'Healthy products', 'Unhealthy products', 'Drinking regime',
-              'Dietary rules for healthy skin', 'How much sleep do you need?', 'How does sleep affect hormones and the skin?',
-              'How can you restore the skin after insomnia?', 'What to eat to sleep well?', 'The rules of "Good night"'
-              ]
+all_topics = list(messages['Русский'].keys()) + list(messages['English'].keys())
 
 @bot.message_handler(commands=['start'])
 def start(message):
