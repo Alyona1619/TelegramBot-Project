@@ -1,7 +1,7 @@
 from messages import *
 
 
-BOTTOKEN = '5136913496:AAFVF_8Ua_bXVTGtC3N6XuMI8YbTZ_UOLCo'
+BOTTOKEN = '6062191581:AAHhFWMHHOZMXLbVVGzHdI8Bf3rznxDQBRI'
 
 user_data = {}
 user_language = {}
